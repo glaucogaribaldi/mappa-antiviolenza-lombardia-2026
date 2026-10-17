@@ -1,0 +1,2007 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.4087873,
+          45.4104244
+        ]
+      },
+      "properties": {
+        "categoria": "SANITA",
+        "tipo": "Pronto Soccorso",
+        "name": "Spedali Civili Brescia Montichiari",
+        "description": "### Spedali Civili Brescia Montichiari\n**Stato:** 🟢 Presidio Sanitario Istituzionale Verificato\n\n**Tipo:** Pronto Soccorso d'Emergenza\n**📍 Indirizzo:** Via Ciotti 154, 25123, Montichiari\n**📞 Telefono (Clicca per chiamare):** [+39 030 39951](tel:+3903039951)\n**✉️ Email (Clicca per scrivere):** [protocollo.spedalicivilibrescia@legalmail.it](mailto:protocollo.spedalicivilibrescia@legalmail.it)\n**🌐 Sito Web:** [Visita il sito](https://asst-spedalicivili.it/strutture/ospedale-montichiari)\n**⏰ Orari:** Mo-Sa 13:00-14:00, 18:45-20:00; Su 14:30-16:30\n\n---\n**📚 Servizi di Supporto ed Emergenza:**\n* 💗 **Percorso Codice Rosa attivo:** Accoglienza, supporto psicologico e protezione immediata con personale formato per reati di violenza di genere.\n* 💰 **Ticket Esente:** Prestazioni gratuite per vittime di violenza.\n* 🚑 **Soccorso Sanitario H24**\n",
+        "indirizzo": "Via Ciotti 154, 25123, Montichiari",
+        "telefono": "+39 030 39951",
+        "email": "protocollo.spedalicivilibrescia@legalmail.it",
+        "sito_web": "https://asst-spedalicivili.it/strutture/ospedale-montichiari",
+        "orari": "Mo-Sa 13:00-14:00, 18:45-20:00; Su 14:30-16:30",
+        "codice_rosa": "Disponibile",
+        "bollino_rosa": "no",
+        "gratuito": "Sì",
+        "colore_marker": "#FF0000",
+        "icona": "medical"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2994208,
+          46.1420975
+        ]
+      },
+      "properties": {
+        "categoria": "SANITA",
+        "tipo": "Pronto Soccorso",
+        "name": "Pronto Soccorso Ospedale Moriggia Pelascini",
+        "description": "### Pronto Soccorso Ospedale Moriggia Pelascini\n**Stato:** 🟢 Presidio Sanitario Istituzionale Verificato\n\n**Tipo:** Pronto Soccorso d'Emergenza\n**📍 Indirizzo:** Via Moriggia Pelascini, 22015, Gravedona\n**📞 Telefono (Clicca per chiamare):** [112](tel:112) / [118](tel:118)\n**⏰ Orari:** H24 (Pronto Soccorso)\n\n---\n**📚 Servizi di Supporto ed Emergenza:**\n* 💗 **Percorso Codice Rosa attivo:** Accoglienza, supporto psicologico e protezione immediata con personale formato per reati di violenza di genere.\n* 💰 **Ticket Esente:** Prestazioni gratuite per vittime di violenza.\n* 🚑 **Soccorso Sanitario H24**\n",
+        "indirizzo": "Via Moriggia Pelascini, 22015, Gravedona",
+        "telefono": "112 / 118",
+        "email": "",
+        "sito_web": "",
+        "orari": "H24 (Pronto Soccorso)",
+        "codice_rosa": "Disponibile",
+        "bollino_rosa": "no",
+        "gratuito": "Sì",
+        "colore_marker": "#FF0000",
+        "icona": "medical"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1676563,
+          45.4861586
+        ]
+      },
+      "properties": {
+        "categoria": "SANITA",
+        "tipo": "Pronto Soccorso",
+        "name": "Pronto Soccorso Presidio Ospedaliero Buzzi",
+        "description": "### Pronto Soccorso Presidio Ospedaliero Buzzi\n**Stato:** 🟢 Presidio Sanitario Istituzionale Verificato\n\n**Tipo:** Pronto Soccorso d'Emergenza\n**📍 Indirizzo:** Indirizzo non disponibile\n**📞 Telefono (Clicca per chiamare):** [112](tel:112) / [118](tel:118)\n**⏰ Orari:** H24 (Pronto Soccorso)\n\n---\n**📚 Servizi di Supporto ed Emergenza:**\n* 💗 **Percorso Codice Rosa attivo:** Accoglienza, supporto psicologico e protezione immediata con personale formato per reati di violenza di genere.\n* 💰 **Ticket Esente:** Prestazioni gratuite per vittime di violenza.\n* 🚑 **Soccorso Sanitario H24**\n",
+        "indirizzo": "Indirizzo non disponibile",
+        "telefono": "112 / 118",
+        "email": "",
+        "sito_web": "",
+        "orari": "H24 (Pronto Soccorso)",
+        "codice_rosa": "Disponibile",
+        "bollino_rosa": "no",
+        "gratuito": "Sì",
+        "colore_marker": "#FF0000",
+        "icona": "medical"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1961176,
+          45.4592388
+        ]
+      },
+      "properties": {
+        "categoria": "SANITA",
+        "tipo": "Pronto Soccorso",
+        "name": "Pronto Soccorso",
+        "description": "### Pronto Soccorso\n**Stato:** 🟢 Presidio Sanitario Istituzionale Verificato\n\n**Tipo:** Pronto Soccorso d'Emergenza\n**📍 Indirizzo:** Via San Barnaba, 20122, Milano\n**📞 Telefono (Clicca per chiamare):** [112](tel:112) / [118](tel:118)\n**🌐 Sito Web:** [Visita il sito](https://www.policlinico.mi.it/reparti/58/pronto-soccorso-1)\n**⏰ Orari:** 24/7\n\n---\n**📚 Servizi di Supporto ed Emergenza:**\n* 💗 **Percorso Codice Rosa attivo:** Accoglienza, supporto psicologico e protezione immediata con personale formato per reati di violenza di genere.\n* 💰 **Ticket Esente:** Prestazioni gratuite per vittime di violenza.\n* 🚑 **Soccorso Sanitario H24**\n",
+        "indirizzo": "Via San Barnaba, 20122, Milano",
+        "telefono": "112 / 118",
+        "email": "",
+        "sito_web": "https://www.policlinico.mi.it/reparti/58/pronto-soccorso-1",
+        "orari": "24/7",
+        "codice_rosa": "Disponibile",
+        "bollino_rosa": "no",
+        "gratuito": "Sì",
+        "colore_marker": "#FF0000",
+        "icona": "medical"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1611166,
+          45.4335515
+        ]
+      },
+      "properties": {
+        "categoria": "SANITA",
+        "tipo": "Pronto Soccorso",
+        "name": "Pronto Soccorso Ospedale San Paolo",
+        "description": "### Pronto Soccorso Ospedale San Paolo\n**Stato:** 🟢 Presidio Sanitario Istituzionale Verificato\n\n**Tipo:** Pronto Soccorso d'Emergenza\n**📍 Indirizzo:** Indirizzo non disponibile\n**📞 Telefono (Clicca per chiamare):** [112](tel:112) / [118](tel:118)\n**⏰ Orari:** H24 (Pronto Soccorso)\n\n---\n**📚 Servizi di Supporto ed Emergenza:**\n* 💗 **Percorso Codice Rosa attivo:** Accoglienza, supporto psicologico e protezione immediata con personale formato per reati di violenza di genere.\n* 💰 **Ticket Esente:** Prestazioni gratuite per vittime di violenza.\n* 🚑 **Soccorso Sanitario H24**\n",
+        "indirizzo": "Indirizzo non disponibile",
+        "telefono": "112 / 118",
+        "email": "",
+        "sito_web": "",
+        "orari": "H24 (Pronto Soccorso)",
+        "codice_rosa": "Disponibile",
+        "bollino_rosa": "no",
+        "gratuito": "Sì",
+        "colore_marker": "#FF0000",
+        "icona": "medical"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.8648978,
+          45.3199258
+        ]
+      },
+      "properties": {
+        "categoria": "SANITA",
+        "tipo": "Pronto Soccorso",
+        "name": "Pronto Soccorso Ospedale Civile Vigevano",
+        "description": "### Pronto Soccorso Ospedale Civile Vigevano\n**Stato:** 🟢 Presidio Sanitario Istituzionale Verificato\n\n**Tipo:** Pronto Soccorso d'Emergenza\n**📍 Indirizzo:** 27029, Vigevano\n**📞 Telefono (Clicca per chiamare):** [112](tel:112) / [118](tel:118)\n**⏰ Orari:** H24 (Pronto Soccorso)\n\n---\n**📚 Servizi di Supporto ed Emergenza:**\n* 💗 **Percorso Codice Rosa attivo:** Accoglienza, supporto psicologico e protezione immediata con personale formato per reati di violenza di genere.\n* 💰 **Ticket Esente:** Prestazioni gratuite per vittime di violenza.\n* 🚑 **Soccorso Sanitario H24**\n",
+        "indirizzo": "27029, Vigevano",
+        "telefono": "112 / 118",
+        "email": "",
+        "sito_web": "",
+        "orari": "H24 (Pronto Soccorso)",
+        "codice_rosa": "Disponibile",
+        "bollino_rosa": "no",
+        "gratuito": "Sì",
+        "colore_marker": "#FF0000",
+        "icona": "medical"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.5736467,
+          46.1337274
+        ]
+      },
+      "properties": {
+        "categoria": "SANITA",
+        "tipo": "Pronto Soccorso",
+        "name": "Pronto Soccorso Ospedale  Morbegno",
+        "description": "### Pronto Soccorso Ospedale  Morbegno\n**Stato:** 🟢 Presidio Sanitario Istituzionale Verificato\n\n**Tipo:** Pronto Soccorso d'Emergenza\n**📍 Indirizzo:** 23017, Morbegno\n**📞 Telefono (Clicca per chiamare):** [112](tel:112) / [118](tel:118)\n**⏰ Orari:** H24 (Pronto Soccorso)\n\n---\n**📚 Servizi di Supporto ed Emergenza:**\n* 💗 **Percorso Codice Rosa attivo:** Accoglienza, supporto psicologico e protezione immediata con personale formato per reati di violenza di genere.\n* 💰 **Ticket Esente:** Prestazioni gratuite per vittime di violenza.\n* 🚑 **Soccorso Sanitario H24**\n",
+        "indirizzo": "23017, Morbegno",
+        "telefono": "112 / 118",
+        "email": "",
+        "sito_web": "",
+        "orari": "H24 (Pronto Soccorso)",
+        "codice_rosa": "Disponibile",
+        "bollino_rosa": "no",
+        "gratuito": "Sì",
+        "colore_marker": "#FF0000",
+        "icona": "medical"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.3992887,
+          46.3217151
+        ]
+      },
+      "properties": {
+        "categoria": "SANITA",
+        "tipo": "Pronto Soccorso",
+        "name": "Pronto soccorso ospedale di Chiavenna",
+        "description": "### Pronto soccorso ospedale di Chiavenna\n**Stato:** 🟢 Presidio Sanitario Istituzionale Verificato\n\n**Tipo:** Pronto Soccorso d'Emergenza\n**📍 Indirizzo:** 23022, Chiavenna\n**📞 Telefono (Clicca per chiamare):** [112](tel:112) / [118](tel:118)\n**⏰ Orari:** H24 (Pronto Soccorso)\n\n---\n**📚 Servizi di Supporto ed Emergenza:**\n* 💗 **Percorso Codice Rosa attivo:** Accoglienza, supporto psicologico e protezione immediata con personale formato per reati di violenza di genere.\n* 💰 **Ticket Esente:** Prestazioni gratuite per vittime di violenza.\n* 🚑 **Soccorso Sanitario H24**\n",
+        "indirizzo": "23022, Chiavenna",
+        "telefono": "112 / 118",
+        "email": "",
+        "sito_web": "",
+        "orari": "H24 (Pronto Soccorso)",
+        "codice_rosa": "Disponibile",
+        "bollino_rosa": "no",
+        "gratuito": "Sì",
+        "colore_marker": "#FF0000",
+        "icona": "medical"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.2274266,
+          45.5539996
+        ]
+      },
+      "properties": {
+        "categoria": "SANITA",
+        "tipo": "Pronto Soccorso",
+        "name": "Pronto Soccorso",
+        "description": "### Pronto Soccorso\n**Stato:** 🟢 Presidio Sanitario Istituzionale Verificato\n\n**Tipo:** Pronto Soccorso d'Emergenza\n**📍 Indirizzo:** Indirizzo non disponibile\n**📞 Telefono (Clicca per chiamare):** [112](tel:112) / [118](tel:118)\n**⏰ Orari:** H24 (Pronto Soccorso)\n\n---\n**📚 Servizi di Supporto ed Emergenza:**\n* 💗 **Percorso Codice Rosa attivo:** Accoglienza, supporto psicologico e protezione immediata con personale formato per reati di violenza di genere.\n* 💰 **Ticket Esente:** Prestazioni gratuite per vittime di violenza.\n* 🚑 **Soccorso Sanitario H24**\n",
+        "indirizzo": "Indirizzo non disponibile",
+        "telefono": "112 / 118",
+        "email": "",
+        "sito_web": "",
+        "orari": "H24 (Pronto Soccorso)",
+        "codice_rosa": "Disponibile",
+        "bollino_rosa": "no",
+        "gratuito": "Sì",
+        "colore_marker": "#FF0000",
+        "icona": "medical"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.187671,
+          45.5115592
+        ]
+      },
+      "properties": {
+        "categoria": "SANITA",
+        "tipo": "Pronto Soccorso",
+        "name": "Pronto Soccorso Ostetrico",
+        "description": "### Pronto Soccorso Ostetrico\n**Stato:** 🟢 Presidio Sanitario Istituzionale Verificato\n\n**Tipo:** Pronto Soccorso d'Emergenza\n**📍 Indirizzo:** Indirizzo non disponibile\n**📞 Telefono (Clicca per chiamare):** [112](tel:112) / [118](tel:118)\n**⏰ Orari:** H24 (Pronto Soccorso)\n\n---\n**📚 Servizi di Supporto ed Emergenza:**\n* 💗 **Percorso Codice Rosa attivo:** Accoglienza, supporto psicologico e protezione immediata con personale formato per reati di violenza di genere.\n* 💰 **Ticket Esente:** Prestazioni gratuite per vittime di violenza.\n* 🚑 **Soccorso Sanitario H24**\n",
+        "indirizzo": "Indirizzo non disponibile",
+        "telefono": "112 / 118",
+        "email": "",
+        "sito_web": "",
+        "orari": "H24 (Pronto Soccorso)",
+        "codice_rosa": "Disponibile",
+        "bollino_rosa": "no",
+        "gratuito": "Sì",
+        "colore_marker": "#FF0000",
+        "icona": "medical"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1941394,
+          45.4541872
+        ]
+      },
+      "properties": {
+        "categoria": "SANITA",
+        "tipo": "Pronto Soccorso",
+        "name": "Pronto Soccorso Istituto Gaetano Pini",
+        "description": "### Pronto Soccorso Istituto Gaetano Pini\n**Stato:** 🟢 Presidio Sanitario Istituzionale Verificato\n\n**Tipo:** Pronto Soccorso d'Emergenza\n**📍 Indirizzo:** Via Quadronno 25, 20122, Milano\n**📞 Telefono (Clicca per chiamare):** [+39 02 5829 6564](tel:+390258296564)\n**⏰ Orari:** 24/7\n\n---\n**📚 Servizi di Supporto ed Emergenza:**\n* 💗 **Percorso Codice Rosa attivo:** Accoglienza, supporto psicologico e protezione immediata con personale formato per reati di violenza di genere.\n* 💰 **Ticket Esente:** Prestazioni gratuite per vittime di violenza.\n* 🚑 **Soccorso Sanitario H24**\n",
+        "indirizzo": "Via Quadronno 25, 20122, Milano",
+        "telefono": "+39 02 5829 6564",
+        "email": "",
+        "sito_web": "",
+        "orari": "24/7",
+        "codice_rosa": "Disponibile",
+        "bollino_rosa": "no",
+        "gratuito": "Sì",
+        "colore_marker": "#FF0000",
+        "icona": "medical"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1915073,
+          45.4795613
+        ]
+      },
+      "properties": {
+        "categoria": "SANITA",
+        "tipo": "Pronto Soccorso",
+        "name": "Pronto Soccorso Oculistico",
+        "description": "### Pronto Soccorso Oculistico\n**Stato:** 🟢 Presidio Sanitario Istituzionale Verificato\n\n**Tipo:** Pronto Soccorso d'Emergenza\n**📍 Indirizzo:** Indirizzo non disponibile\n**📞 Telefono (Clicca per chiamare):** [112](tel:112) / [118](tel:118)\n**⏰ Orari:** H24 (Pronto Soccorso)\n\n---\n**📚 Servizi di Supporto ed Emergenza:**\n* 💗 **Percorso Codice Rosa attivo:** Accoglienza, supporto psicologico e protezione immediata con personale formato per reati di violenza di genere.\n* 💰 **Ticket Esente:** Prestazioni gratuite per vittime di violenza.\n* 🚑 **Soccorso Sanitario H24**\n",
+        "indirizzo": "Indirizzo non disponibile",
+        "telefono": "112 / 118",
+        "email": "",
+        "sito_web": "",
+        "orari": "H24 (Pronto Soccorso)",
+        "codice_rosa": "Disponibile",
+        "bollino_rosa": "no",
+        "gratuito": "Sì",
+        "colore_marker": "#FF0000",
+        "icona": "medical"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1905419,
+          45.478834
+        ]
+      },
+      "properties": {
+        "categoria": "SANITA",
+        "tipo": "Pronto Soccorso",
+        "name": "Pronto Soccorso Medico Chirurgico e Pediatrico",
+        "description": "### Pronto Soccorso Medico Chirurgico e Pediatrico\n**Stato:** 🟢 Presidio Sanitario Istituzionale Verificato\n\n**Tipo:** Pronto Soccorso d'Emergenza\n**📍 Indirizzo:** Indirizzo non disponibile\n**📞 Telefono (Clicca per chiamare):** [112](tel:112) / [118](tel:118)\n**⏰ Orari:** H24 (Pronto Soccorso)\n\n---\n**📚 Servizi di Supporto ed Emergenza:**\n* 💗 **Percorso Codice Rosa attivo:** Accoglienza, supporto psicologico e protezione immediata con personale formato per reati di violenza di genere.\n* 💰 **Ticket Esente:** Prestazioni gratuite per vittime di violenza.\n* 🚑 **Soccorso Sanitario H24**\n",
+        "indirizzo": "Indirizzo non disponibile",
+        "telefono": "112 / 118",
+        "email": "",
+        "sito_web": "",
+        "orari": "H24 (Pronto Soccorso)",
+        "codice_rosa": "Disponibile",
+        "bollino_rosa": "no",
+        "gratuito": "Sì",
+        "colore_marker": "#FF0000",
+        "icona": "medical"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1140871,
+          45.4694247
+        ]
+      },
+      "properties": {
+        "categoria": "SANITA",
+        "tipo": "Pronto Soccorso",
+        "name": "Pronto Soccorso Ospedale San Carlo Borromeo",
+        "description": "### Pronto Soccorso Ospedale San Carlo Borromeo\n**Stato:** 🟢 Presidio Sanitario Istituzionale Verificato\n\n**Tipo:** Pronto Soccorso d'Emergenza\n**📍 Indirizzo:** Indirizzo non disponibile\n**📞 Telefono (Clicca per chiamare):** [112](tel:112) / [118](tel:118)\n**⏰ Orari:** H24 (Pronto Soccorso)\n\n---\n**📚 Servizi di Supporto ed Emergenza:**\n* 💗 **Percorso Codice Rosa attivo:** Accoglienza, supporto psicologico e protezione immediata con personale formato per reati di violenza di genere.\n* 💰 **Ticket Esente:** Prestazioni gratuite per vittime di violenza.\n* 🚑 **Soccorso Sanitario H24**\n",
+        "indirizzo": "Indirizzo non disponibile",
+        "telefono": "112 / 118",
+        "email": "",
+        "sito_web": "",
+        "orari": "H24 (Pronto Soccorso)",
+        "codice_rosa": "Disponibile",
+        "bollino_rosa": "no",
+        "gratuito": "Sì",
+        "colore_marker": "#FF0000",
+        "icona": "medical"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2606454,
+          45.4438394
+        ]
+      },
+      "properties": {
+        "categoria": "SANITA",
+        "tipo": "Pronto Soccorso",
+        "name": "Pronto Soccorso Centro Cardiologico Monzino",
+        "description": "### Pronto Soccorso Centro Cardiologico Monzino\n**Stato:** 🟢 Presidio Sanitario Istituzionale Verificato\n\n**Tipo:** Pronto Soccorso d'Emergenza\n**📍 Indirizzo:** Indirizzo non disponibile\n**📞 Telefono (Clicca per chiamare):** [112](tel:112) / [118](tel:118)\n**⏰ Orari:** H24 (Pronto Soccorso)\n\n---\n**📚 Servizi di Supporto ed Emergenza:**\n* 💗 **Percorso Codice Rosa attivo:** Accoglienza, supporto psicologico e protezione immediata con personale formato per reati di violenza di genere.\n* 💰 **Ticket Esente:** Prestazioni gratuite per vittime di violenza.\n* 🚑 **Soccorso Sanitario H24**\n",
+        "indirizzo": "Indirizzo non disponibile",
+        "telefono": "112 / 118",
+        "email": "",
+        "sito_web": "",
+        "orari": "H24 (Pronto Soccorso)",
+        "codice_rosa": "Disponibile",
+        "bollino_rosa": "no",
+        "gratuito": "Sì",
+        "colore_marker": "#FF0000",
+        "icona": "medical"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.8400256,
+          45.8089209
+        ]
+      },
+      "properties": {
+        "categoria": "SANITA",
+        "tipo": "Pronto Soccorso",
+        "name": "Ospedale di Circolo - Fondazione Macchi",
+        "description": "### Ospedale di Circolo - Fondazione Macchi\n**Stato:** 🟢 Presidio Sanitario Istituzionale Verificato\n\n**Tipo:** Pronto Soccorso d'Emergenza\n**📍 Indirizzo:** Indirizzo non disponibile\n**📞 Telefono (Clicca per chiamare):** [112](tel:112) / [118](tel:118)\n**🌐 Sito Web:** [Visita il sito](http://www.ospedalivarese.net/)\n**⏰ Orari:** H24 (Pronto Soccorso)\n\n---\n**📚 Servizi di Supporto ed Emergenza:**\n* 💗 **Percorso Codice Rosa attivo:** Accoglienza, supporto psicologico e protezione immediata con personale formato per reati di violenza di genere.\n* 💰 **Ticket Esente:** Prestazioni gratuite per vittime di violenza.\n* 🚑 **Soccorso Sanitario H24**\n",
+        "indirizzo": "Indirizzo non disponibile",
+        "telefono": "112 / 118",
+        "email": "",
+        "sito_web": "http://www.ospedalivarese.net/",
+        "orari": "H24 (Pronto Soccorso)",
+        "codice_rosa": "Disponibile",
+        "bollino_rosa": "no",
+        "gratuito": "Sì",
+        "colore_marker": "#FF0000",
+        "icona": "medical"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1862442,
+          45.5098828
+        ]
+      },
+      "properties": {
+        "categoria": "SANITA",
+        "tipo": "Pronto Soccorso",
+        "name": "ASST Grande Ospedale Metropolitano Niguarda",
+        "description": "### ASST Grande Ospedale Metropolitano Niguarda\n**Stato:** 🟢 Presidio Sanitario Istituzionale Verificato\n\n**Tipo:** Pronto Soccorso d'Emergenza\n**📍 Indirizzo:** Indirizzo non disponibile\n**📞 Telefono (Clicca per chiamare):** [+39 02 64441](tel:+390264441)\n**🌐 Sito Web:** [Visita il sito](https://www.ospedaleniguarda.it/)\n**⏰ Orari:** H24 (Pronto Soccorso)\n\n---\n**📚 Servizi di Supporto ed Emergenza:**\n* 💗 **Percorso Codice Rosa attivo:** Accoglienza, supporto psicologico e protezione immediata con personale formato per reati di violenza di genere.\n* 💰 **Ticket Esente:** Prestazioni gratuite per vittime di violenza.\n* 🚑 **Soccorso Sanitario H24**\n",
+        "indirizzo": "Indirizzo non disponibile",
+        "telefono": "+39 02 64441",
+        "email": "",
+        "sito_web": "https://www.ospedaleniguarda.it/",
+        "orari": "H24 (Pronto Soccorso)",
+        "codice_rosa": "Disponibile",
+        "bollino_rosa": "no",
+        "gratuito": "Sì",
+        "colore_marker": "#FF0000",
+        "icona": "medical"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.114177,
+          45.4681075
+        ]
+      },
+      "properties": {
+        "categoria": "SANITA",
+        "tipo": "Pronto Soccorso",
+        "name": "Ospedale San Carlo Borromeo",
+        "description": "### Ospedale San Carlo Borromeo\n**Stato:** 🟢 Presidio Sanitario Istituzionale Verificato\n\n**Tipo:** Pronto Soccorso d'Emergenza\n**📍 Indirizzo:** Indirizzo non disponibile\n**📞 Telefono (Clicca per chiamare):** [112](tel:112) / [118](tel:118)\n**🌐 Sito Web:** [Visita il sito](https://www.asst-santipaolocarlo.it/)\n**⏰ Orari:** H24 (Pronto Soccorso)\n\n---\n**📚 Servizi di Supporto ed Emergenza:**\n* 💗 **Percorso Codice Rosa attivo:** Accoglienza, supporto psicologico e protezione immediata con personale formato per reati di violenza di genere.\n* 💰 **Ticket Esente:** Prestazioni gratuite per vittime di violenza.\n* 🚑 **Soccorso Sanitario H24**\n",
+        "indirizzo": "Indirizzo non disponibile",
+        "telefono": "112 / 118",
+        "email": "",
+        "sito_web": "https://www.asst-santipaolocarlo.it/",
+        "orari": "H24 (Pronto Soccorso)",
+        "codice_rosa": "Disponibile",
+        "bollino_rosa": "no",
+        "gratuito": "Sì",
+        "colore_marker": "#FF0000",
+        "icona": "medical"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.8723269,
+          45.6004222
+        ]
+      },
+      "properties": {
+        "categoria": "SANITA",
+        "tipo": "Pronto Soccorso",
+        "name": "Ospedale MultiMedica Castellanza",
+        "description": "### Ospedale MultiMedica Castellanza\n**Stato:** 🟢 Presidio Sanitario Istituzionale Verificato\n\n**Tipo:** Pronto Soccorso d'Emergenza\n**📍 Indirizzo:** Viale Piemonte 70, 21053\n**📞 Telefono (Clicca per chiamare):** [+3902 8687 8889;+390299961999](tel:+390286878889;+390299961999)\n**🌐 Sito Web:** [Visita il sito](https://multimedica.it/strutture/ospedale-multimedica-castellanza/)\n**⏰ Orari:** H24 (Pronto Soccorso)\n\n---\n**📚 Servizi di Supporto ed Emergenza:**\n* 💗 **Percorso Codice Rosa attivo:** Accoglienza, supporto psicologico e protezione immediata con personale formato per reati di violenza di genere.\n* 💰 **Ticket Esente:** Prestazioni gratuite per vittime di violenza.\n* 🚑 **Soccorso Sanitario H24**\n",
+        "indirizzo": "Viale Piemonte 70, 21053",
+        "telefono": "+3902 8687 8889;+390299961999",
+        "email": "",
+        "sito_web": "https://multimedica.it/strutture/ospedale-multimedica-castellanza/",
+        "orari": "H24 (Pronto Soccorso)",
+        "codice_rosa": "Disponibile",
+        "bollino_rosa": "no",
+        "gratuito": "Sì",
+        "colore_marker": "#FF0000",
+        "icona": "medical"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.2305874,
+          45.5585504
+        ]
+      },
+      "properties": {
+        "categoria": "SANITA",
+        "tipo": "Pronto Soccorso",
+        "name": "Pronto Soccorso",
+        "description": "### Pronto Soccorso\n**Stato:** 🟢 Presidio Sanitario Istituzionale Verificato\n\n**Tipo:** Pronto Soccorso d'Emergenza\n**📍 Indirizzo:** Indirizzo non disponibile\n**📞 Telefono (Clicca per chiamare):** [112](tel:112) / [118](tel:118)\n**⏰ Orari:** H24 (Pronto Soccorso)\n\n---\n**📚 Servizi di Supporto ed Emergenza:**\n* 💗 **Percorso Codice Rosa attivo:** Accoglienza, supporto psicologico e protezione immediata con personale formato per reati di violenza di genere.\n* 💰 **Ticket Esente:** Prestazioni gratuite per vittime di violenza.\n* 🚑 **Soccorso Sanitario H24**\n",
+        "indirizzo": "Indirizzo non disponibile",
+        "telefono": "112 / 118",
+        "email": "",
+        "sito_web": "",
+        "orari": "H24 (Pronto Soccorso)",
+        "codice_rosa": "Disponibile",
+        "bollino_rosa": "no",
+        "gratuito": "Sì",
+        "colore_marker": "#FF0000",
+        "icona": "medical"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1420265,
+          45.7393431
+        ]
+      },
+      "properties": {
+        "categoria": "SANITA",
+        "tipo": "Pronto Soccorso",
+        "name": "Ospedale Sant'Antonio Abate",
+        "description": "### Ospedale Sant'Antonio Abate\n**Stato:** 🟢 Presidio Sanitario Istituzionale Verificato\n\n**Tipo:** Pronto Soccorso d'Emergenza\n**📍 Indirizzo:** Indirizzo non disponibile\n**📞 Telefono (Clicca per chiamare):** [112](tel:112) / [118](tel:118)\n**⏰ Orari:** H24 (Pronto Soccorso)\n\n---\n**📚 Servizi di Supporto ed Emergenza:**\n* 💗 **Percorso Codice Rosa attivo:** Accoglienza, supporto psicologico e protezione immediata con personale formato per reati di violenza di genere.\n* 💰 **Ticket Esente:** Prestazioni gratuite per vittime di violenza.\n* 🚑 **Soccorso Sanitario H24**\n",
+        "indirizzo": "Indirizzo non disponibile",
+        "telefono": "112 / 118",
+        "email": "",
+        "sito_web": "",
+        "orari": "H24 (Pronto Soccorso)",
+        "codice_rosa": "Disponibile",
+        "bollino_rosa": "no",
+        "gratuito": "Sì",
+        "colore_marker": "#FF0000",
+        "icona": "medical"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.7726659,
+          45.1455753
+        ]
+      },
+      "properties": {
+        "categoria": "SANITA",
+        "tipo": "Pronto Soccorso",
+        "name": "Istituti Ospedalieri Carlo Poma",
+        "description": "### Istituti Ospedalieri Carlo Poma\n**Stato:** 🟢 Presidio Sanitario Istituzionale Verificato\n\n**Tipo:** Pronto Soccorso d'Emergenza\n**📍 Indirizzo:** Indirizzo non disponibile\n**📞 Telefono (Clicca per chiamare):** [112](tel:112) / [118](tel:118)\n**⏰ Orari:** H24 (Pronto Soccorso)\n\n---\n**📚 Servizi di Supporto ed Emergenza:**\n* 💗 **Percorso Codice Rosa attivo:** Accoglienza, supporto psicologico e protezione immediata con personale formato per reati di violenza di genere.\n* 💰 **Ticket Esente:** Prestazioni gratuite per vittime di violenza.\n* 🚑 **Soccorso Sanitario H24**\n",
+        "indirizzo": "Indirizzo non disponibile",
+        "telefono": "112 / 118",
+        "email": "",
+        "sito_web": "",
+        "orari": "H24 (Pronto Soccorso)",
+        "codice_rosa": "Disponibile",
+        "bollino_rosa": "no",
+        "gratuito": "Sì",
+        "colore_marker": "#FF0000",
+        "icona": "medical"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.7919891,
+          45.6566506
+        ]
+      },
+      "properties": {
+        "categoria": "SANITA",
+        "tipo": "Pronto Soccorso",
+        "name": "Azienda Ospedaliera Sant'Antonio Abate",
+        "description": "### Azienda Ospedaliera Sant'Antonio Abate\n**Stato:** 🟢 Presidio Sanitario Istituzionale Verificato\n\n**Tipo:** Pronto Soccorso d'Emergenza\n**📍 Indirizzo:** Via Eusebio Pastori 4, 21013, Gallarate\n**📞 Telefono (Clicca per chiamare):** [+39 033 175 1111](tel:+390331751111)\n**🌐 Sito Web:** [Visita il sito](https://www.asst-valleolona.it/)\n**⏰ Orari:** 24/7\n\n---\n**📚 Servizi di Supporto ed Emergenza:**\n* 💗 **Percorso Codice Rosa attivo:** Accoglienza, supporto psicologico e protezione immediata con personale formato per reati di violenza di genere.\n* 💰 **Ticket Esente:** Prestazioni gratuite per vittime di violenza.\n* 🚑 **Soccorso Sanitario H24**\n",
+        "indirizzo": "Via Eusebio Pastori 4, 21013, Gallarate",
+        "telefono": "+39 033 175 1111",
+        "email": "",
+        "sito_web": "https://www.asst-valleolona.it/",
+        "orari": "24/7",
+        "codice_rosa": "Disponibile",
+        "bollino_rosa": "no",
+        "gratuito": "Sì",
+        "colore_marker": "#FF0000",
+        "icona": "medical"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2264991,
+          45.8165571
+        ]
+      },
+      "properties": {
+        "categoria": "SANITA",
+        "tipo": "Pronto Soccorso",
+        "name": "Ospedale Sacra Famiglia Fatebenefratelli",
+        "description": "### Ospedale Sacra Famiglia Fatebenefratelli\n**Stato:** 🟢 Presidio Sanitario Istituzionale Verificato\n\n**Tipo:** Pronto Soccorso d'Emergenza\n**📍 Indirizzo:** Indirizzo non disponibile\n**📞 Telefono (Clicca per chiamare):** [112](tel:112) / [118](tel:118)\n**⏰ Orari:** H24 (Pronto Soccorso)\n\n---\n**📚 Servizi di Supporto ed Emergenza:**\n* 💗 **Percorso Codice Rosa attivo:** Accoglienza, supporto psicologico e protezione immediata con personale formato per reati di violenza di genere.\n* 💰 **Ticket Esente:** Prestazioni gratuite per vittime di violenza.\n* 🚑 **Soccorso Sanitario H24**\n",
+        "indirizzo": "Indirizzo non disponibile",
+        "telefono": "112 / 118",
+        "email": "",
+        "sito_web": "",
+        "orari": "H24 (Pronto Soccorso)",
+        "codice_rosa": "Disponibile",
+        "bollino_rosa": "no",
+        "gratuito": "Sì",
+        "colore_marker": "#FF0000",
+        "icona": "medical"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.72573,
+          45.7315767
+        ]
+      },
+      "properties": {
+        "categoria": "SANITA",
+        "tipo": "Pronto Soccorso",
+        "name": "Ospedale Pesenti Fenaroli",
+        "description": "### Ospedale Pesenti Fenaroli\n**Stato:** 🟢 Presidio Sanitario Istituzionale Verificato\n\n**Tipo:** Pronto Soccorso d'Emergenza\n**📍 Indirizzo:** Indirizzo non disponibile\n**📞 Telefono (Clicca per chiamare):** [112](tel:112) / [118](tel:118)\n**⏰ Orari:** H24 (Pronto Soccorso)\n\n---\n**📚 Servizi di Supporto ed Emergenza:**\n* 💗 **Percorso Codice Rosa attivo:** Accoglienza, supporto psicologico e protezione immediata con personale formato per reati di violenza di genere.\n* 💰 **Ticket Esente:** Prestazioni gratuite per vittime di violenza.\n* 🚑 **Soccorso Sanitario H24**\n",
+        "indirizzo": "Indirizzo non disponibile",
+        "telefono": "112 / 118",
+        "email": "",
+        "sito_web": "",
+        "orari": "H24 (Pronto Soccorso)",
+        "codice_rosa": "Disponibile",
+        "bollino_rosa": "no",
+        "gratuito": "Sì",
+        "colore_marker": "#FF0000",
+        "icona": "medical"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.1244373,
+          46.5176969
+        ]
+      },
+      "properties": {
+        "categoria": "SANITA",
+        "tipo": "Pronto Soccorso",
+        "name": "Casa della Sanità",
+        "description": "### Casa della Sanità\n**Stato:** 🟢 Presidio Sanitario Istituzionale Verificato\n\n**Tipo:** Pronto Soccorso d'Emergenza\n**📍 Indirizzo:** Via Freita 1521, 23030, Livigno\n**📞 Telefono (Clicca per chiamare):** [112](tel:112) / [118](tel:118)\n**⏰ Orari:** H24 (Pronto Soccorso)\n\n---\n**📚 Servizi di Supporto ed Emergenza:**\n* 💗 **Percorso Codice Rosa attivo:** Accoglienza, supporto psicologico e protezione immediata con personale formato per reati di violenza di genere.\n* 💰 **Ticket Esente:** Prestazioni gratuite per vittime di violenza.\n* 🚑 **Soccorso Sanitario H24**\n",
+        "indirizzo": "Via Freita 1521, 23030, Livigno",
+        "telefono": "112 / 118",
+        "email": "",
+        "sito_web": "",
+        "orari": "H24 (Pronto Soccorso)",
+        "codice_rosa": "Disponibile",
+        "bollino_rosa": "no",
+        "gratuito": "Sì",
+        "colore_marker": "#FF0000",
+        "icona": "medical"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.7127782,
+          45.1589802
+        ]
+      },
+      "properties": {
+        "categoria": "SANITA",
+        "tipo": "Pronto Soccorso",
+        "name": "Ospedale Civico di Codogno",
+        "description": "### Ospedale Civico di Codogno\n**Stato:** 🟢 Presidio Sanitario Istituzionale Verificato\n\n**Tipo:** Pronto Soccorso d'Emergenza\n**📍 Indirizzo:** Viale Guglielmo Marconi 1, Codogno\n**📞 Telefono (Clicca per chiamare):** [+39 0377 4651](tel:+3903774651)\n**🌐 Sito Web:** [Visita il sito](https://www.asst-lodi.it/dove-siamo-ospedale-di-codogno)\n**⏰ Orari:** H24 (Pronto Soccorso)\n\n---\n**📚 Servizi di Supporto ed Emergenza:**\n* 💗 **Percorso Codice Rosa attivo:** Accoglienza, supporto psicologico e protezione immediata con personale formato per reati di violenza di genere.\n* 💰 **Ticket Esente:** Prestazioni gratuite per vittime di violenza.\n* 🚑 **Soccorso Sanitario H24**\n",
+        "indirizzo": "Viale Guglielmo Marconi 1, Codogno",
+        "telefono": "+39 0377 4651",
+        "email": "",
+        "sito_web": "https://www.asst-lodi.it/dove-siamo-ospedale-di-codogno",
+        "orari": "H24 (Pronto Soccorso)",
+        "codice_rosa": "Disponibile",
+        "bollino_rosa": "no",
+        "gratuito": "Sì",
+        "colore_marker": "#FF0000",
+        "icona": "medical"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.4273927,
+          45.6980994
+        ]
+      },
+      "properties": {
+        "categoria": "SANITA",
+        "tipo": "Pronto Soccorso",
+        "name": "Ospedale San Leopoldo Mandic",
+        "description": "### Ospedale San Leopoldo Mandic\n**Stato:** 🟢 Presidio Sanitario Istituzionale Verificato\n\n**Tipo:** Pronto Soccorso d'Emergenza\n**📍 Indirizzo:** Largo Beato Leopoldo Mandic 1, 23807, Merate\n**📞 Telefono (Clicca per chiamare):** [+39 039 5916431](tel:+390395916431)\n**⏰ Orari:** H24 (Pronto Soccorso)\n\n---\n**📚 Servizi di Supporto ed Emergenza:**\n* 💗 **Percorso Codice Rosa attivo:** Accoglienza, supporto psicologico e protezione immediata con personale formato per reati di violenza di genere.\n* 💰 **Ticket Esente:** Prestazioni gratuite per vittime di violenza.\n* 🚑 **Soccorso Sanitario H24**\n",
+        "indirizzo": "Largo Beato Leopoldo Mandic 1, 23807, Merate",
+        "telefono": "+39 039 5916431",
+        "email": "",
+        "sito_web": "",
+        "orari": "H24 (Pronto Soccorso)",
+        "codice_rosa": "Disponibile",
+        "bollino_rosa": "no",
+        "gratuito": "Sì",
+        "colore_marker": "#FF0000",
+        "icona": "medical"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2155297,
+          45.5464656
+        ]
+      },
+      "properties": {
+        "categoria": "SANITA",
+        "tipo": "Pronto Soccorso",
+        "name": "Ospedale Bassini",
+        "description": "### Ospedale Bassini\n**Stato:** 🟢 Presidio Sanitario Istituzionale Verificato\n\n**Tipo:** Pronto Soccorso d'Emergenza\n**📍 Indirizzo:** Via Gorki 50, 20092, Cinisello Balsamo\n**📞 Telefono (Clicca per chiamare):** [112](tel:112) / [118](tel:118)\n**⏰ Orari:** H24 (Pronto Soccorso)\n\n---\n**📚 Servizi di Supporto ed Emergenza:**\n* 💗 **Percorso Codice Rosa attivo:** Accoglienza, supporto psicologico e protezione immediata con personale formato per reati di violenza di genere.\n* 💰 **Ticket Esente:** Prestazioni gratuite per vittime di violenza.\n* 🚑 **Soccorso Sanitario H24**\n",
+        "indirizzo": "Via Gorki 50, 20092, Cinisello Balsamo",
+        "telefono": "112 / 118",
+        "email": "",
+        "sito_web": "",
+        "orari": "H24 (Pronto Soccorso)",
+        "codice_rosa": "Disponibile",
+        "bollino_rosa": "no",
+        "gratuito": "Sì",
+        "colore_marker": "#FF0000",
+        "icona": "medical"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.3563764,
+          45.6082562
+        ]
+      },
+      "properties": {
+        "categoria": "SANITA",
+        "tipo": "Pronto Soccorso",
+        "name": "ASST Brianza - Ospedale di Vimercate",
+        "description": "### ASST Brianza - Ospedale di Vimercate\n**Stato:** 🟢 Presidio Sanitario Istituzionale Verificato\n\n**Tipo:** Pronto Soccorso d'Emergenza\n**📍 Indirizzo:** Via Santi Cosma e Damiano 10, 20871, Vimercate\n**📞 Telefono (Clicca per chiamare):** [+39 039 66541](tel:+3903966541)\n**🌐 Sito Web:** [Visita il sito](https://www.asst-brianza.it)\n**⏰ Orari:** 24/7\n\n---\n**📚 Servizi di Supporto ed Emergenza:**\n* 💗 **Percorso Codice Rosa attivo:** Accoglienza, supporto psicologico e protezione immediata con personale formato per reati di violenza di genere.\n* 💰 **Ticket Esente:** Prestazioni gratuite per vittime di violenza.\n* 🚑 **Soccorso Sanitario H24**\n",
+        "indirizzo": "Via Santi Cosma e Damiano 10, 20871, Vimercate",
+        "telefono": "+39 039 66541",
+        "email": "",
+        "sito_web": "https://www.asst-brianza.it",
+        "orari": "24/7",
+        "codice_rosa": "Disponibile",
+        "bollino_rosa": "no",
+        "gratuito": "Sì",
+        "colore_marker": "#FF0000",
+        "icona": "medical"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.0159591,
+          44.9949661
+        ]
+      },
+      "properties": {
+        "categoria": "SANITA",
+        "tipo": "Pronto Soccorso",
+        "name": "Ospedale Civile di Voghera",
+        "description": "### Ospedale Civile di Voghera\n**Stato:** 🟢 Presidio Sanitario Istituzionale Verificato\n\n**Tipo:** Pronto Soccorso d'Emergenza\n**📍 Indirizzo:** Indirizzo non disponibile\n**📞 Telefono (Clicca per chiamare):** [112](tel:112) / [118](tel:118)\n**⏰ Orari:** H24 (Pronto Soccorso)\n\n---\n**📚 Servizi di Supporto ed Emergenza:**\n* 💗 **Percorso Codice Rosa attivo:** Accoglienza, supporto psicologico e protezione immediata con personale formato per reati di violenza di genere.\n* 💰 **Ticket Esente:** Prestazioni gratuite per vittime di violenza.\n* 🚑 **Soccorso Sanitario H24**\n",
+        "indirizzo": "Indirizzo non disponibile",
+        "telefono": "112 / 118",
+        "email": "",
+        "sito_web": "",
+        "orari": "H24 (Pronto Soccorso)",
+        "codice_rosa": "Disponibile",
+        "bollino_rosa": "no",
+        "gratuito": "Sì",
+        "colore_marker": "#FF0000",
+        "icona": "medical"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.0397535,
+          45.6301062
+        ]
+      },
+      "properties": {
+        "categoria": "SANITA",
+        "tipo": "Pronto Soccorso",
+        "name": "Ospedale di Saronno",
+        "description": "### Ospedale di Saronno\n**Stato:** 🟢 Presidio Sanitario Istituzionale Verificato\n\n**Tipo:** Pronto Soccorso d'Emergenza\n**📍 Indirizzo:** Piazza don Giuseppe Borella 1, 21047, Saronno\n**📞 Telefono (Clicca per chiamare):** [+39 02 96131](tel:+390296131)\n**🌐 Sito Web:** [Visita il sito](https://www.asst-valleolona.it/ospedali/ospedale-di-saronno/)\n**⏰ Orari:** H24 (Pronto Soccorso)\n\n---\n**📚 Servizi di Supporto ed Emergenza:**\n* 💗 **Percorso Codice Rosa attivo:** Accoglienza, supporto psicologico e protezione immediata con personale formato per reati di violenza di genere.\n* 💰 **Ticket Esente:** Prestazioni gratuite per vittime di violenza.\n* 🚑 **Soccorso Sanitario H24**\n",
+        "indirizzo": "Piazza don Giuseppe Borella 1, 21047, Saronno",
+        "telefono": "+39 02 96131",
+        "email": "",
+        "sito_web": "https://www.asst-valleolona.it/ospedali/ospedale-di-saronno/",
+        "orari": "H24 (Pronto Soccorso)",
+        "codice_rosa": "Disponibile",
+        "bollino_rosa": "no",
+        "gratuito": "Sì",
+        "colore_marker": "#FF0000",
+        "icona": "medical"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.8660127,
+          45.3203891
+        ]
+      },
+      "properties": {
+        "categoria": "SANITA",
+        "tipo": "Pronto Soccorso",
+        "name": "Ospedale Civile di Vigevano",
+        "description": "### Ospedale Civile di Vigevano\n**Stato:** 🟢 Presidio Sanitario Istituzionale Verificato\n\n**Tipo:** Pronto Soccorso d'Emergenza\n**📍 Indirizzo:** Indirizzo non disponibile\n**📞 Telefono (Clicca per chiamare):** [112](tel:112) / [118](tel:118)\n**⏰ Orari:** H24 (Pronto Soccorso)\n\n---\n**📚 Servizi di Supporto ed Emergenza:**\n* 💗 **Percorso Codice Rosa attivo:** Accoglienza, supporto psicologico e protezione immediata con personale formato per reati di violenza di genere.\n* 💰 **Ticket Esente:** Prestazioni gratuite per vittime di violenza.\n* 🚑 **Soccorso Sanitario H24**\n",
+        "indirizzo": "Indirizzo non disponibile",
+        "telefono": "112 / 118",
+        "email": "",
+        "sito_web": "",
+        "orari": "H24 (Pronto Soccorso)",
+        "codice_rosa": "Disponibile",
+        "bollino_rosa": "no",
+        "gratuito": "Sì",
+        "colore_marker": "#FF0000",
+        "icona": "medical"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.9066919,
+          45.609131
+        ]
+      },
+      "properties": {
+        "categoria": "SANITA",
+        "tipo": "Pronto Soccorso",
+        "name": "Humanitas Mater Domini",
+        "description": "### Humanitas Mater Domini\n**Stato:** 🟢 Presidio Sanitario Istituzionale Verificato\n\n**Tipo:** Pronto Soccorso d'Emergenza\n**📍 Indirizzo:** Via Gerenzano 2, 21053, Castellanza\n**📞 Telefono (Clicca per chiamare):** [+39 0331 476111](tel:+390331476111)\n**🌐 Sito Web:** [Visita il sito](https://www.materdomini.it/)\n**⏰ Orari:** H24 (Pronto Soccorso)\n\n---\n**📚 Servizi di Supporto ed Emergenza:**\n* 💗 **Percorso Codice Rosa attivo:** Accoglienza, supporto psicologico e protezione immediata con personale formato per reati di violenza di genere.\n* 💰 **Ticket Esente:** Prestazioni gratuite per vittime di violenza.\n* 🚑 **Soccorso Sanitario H24**\n",
+        "indirizzo": "Via Gerenzano 2, 21053, Castellanza",
+        "telefono": "+39 0331 476111",
+        "email": "",
+        "sito_web": "https://www.materdomini.it/",
+        "orari": "H24 (Pronto Soccorso)",
+        "codice_rosa": "Disponibile",
+        "bollino_rosa": "no",
+        "gratuito": "Sì",
+        "colore_marker": "#FF0000",
+        "icona": "medical"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.5206793,
+          45.4714893
+        ]
+      },
+      "properties": {
+        "categoria": "SANITA",
+        "tipo": "Pronto Soccorso",
+        "name": "Azienda Ospedaliera di Desenzano del Garda",
+        "description": "### Azienda Ospedaliera di Desenzano del Garda\n**Stato:** 🟢 Presidio Sanitario Istituzionale Verificato\n\n**Tipo:** Pronto Soccorso d'Emergenza\n**📍 Indirizzo:** Indirizzo non disponibile\n**📞 Telefono (Clicca per chiamare):** [112](tel:112) / [118](tel:118)\n**⏰ Orari:** H24 (Pronto Soccorso)\n\n---\n**📚 Servizi di Supporto ed Emergenza:**\n* 💗 **Percorso Codice Rosa attivo:** Accoglienza, supporto psicologico e protezione immediata con personale formato per reati di violenza di genere.\n* 💰 **Ticket Esente:** Prestazioni gratuite per vittime di violenza.\n* 🚑 **Soccorso Sanitario H24**\n",
+        "indirizzo": "Indirizzo non disponibile",
+        "telefono": "112 / 118",
+        "email": "",
+        "sito_web": "",
+        "orari": "H24 (Pronto Soccorso)",
+        "codice_rosa": "Disponibile",
+        "bollino_rosa": "no",
+        "gratuito": "Sì",
+        "colore_marker": "#FF0000",
+        "icona": "medical"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1165146,
+          45.5402824
+        ]
+      },
+      "properties": {
+        "categoria": "SANITA",
+        "tipo": "Pronto Soccorso",
+        "name": "Ospedale di Bollate",
+        "description": "### Ospedale di Bollate\n**Stato:** 🟢 Presidio Sanitario Istituzionale Verificato\n\n**Tipo:** Pronto Soccorso d'Emergenza\n**📍 Indirizzo:** Indirizzo non disponibile\n**📞 Telefono (Clicca per chiamare):** [112](tel:112) / [118](tel:118)\n**⏰ Orari:** H24 (Pronto Soccorso)\n\n---\n**📚 Servizi di Supporto ed Emergenza:**\n* 💗 **Percorso Codice Rosa attivo:** Accoglienza, supporto psicologico e protezione immediata con personale formato per reati di violenza di genere.\n* 💰 **Ticket Esente:** Prestazioni gratuite per vittime di violenza.\n* 🚑 **Soccorso Sanitario H24**\n",
+        "indirizzo": "Indirizzo non disponibile",
+        "telefono": "112 / 118",
+        "email": "",
+        "sito_web": "",
+        "orari": "H24 (Pronto Soccorso)",
+        "codice_rosa": "Disponibile",
+        "bollino_rosa": "no",
+        "gratuito": "Sì",
+        "colore_marker": "#FF0000",
+        "icona": "medical"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.1838194,
+          45.6764284
+        ]
+      },
+      "properties": {
+        "categoria": "SANITA",
+        "tipo": "Pronto Soccorso",
+        "name": "Ospedale di Gardone Val Trompia",
+        "description": "### Ospedale di Gardone Val Trompia\n**Stato:** 🟢 Presidio Sanitario Istituzionale Verificato\n\n**Tipo:** Pronto Soccorso d'Emergenza\n**📍 Indirizzo:** Via Papa Giovanni Ventitreesimo 4, 25063, Gardone Val Trompia\n**📞 Telefono (Clicca per chiamare):** [+39 030 8933273](tel:+390308933273)\n**✉️ Email (Clicca per scrivere):** [sitr.gardone@asst-spedalicivili.it](mailto:sitr.gardone@asst-spedalicivili.it)\n**🌐 Sito Web:** [Visita il sito](https://gardone.asst-spedalicivili.it/servizi/notizie/notizie_homepage.aspx)\n**⏰ Orari:** H24 (Pronto Soccorso)\n\n---\n**📚 Servizi di Supporto ed Emergenza:**\n* 💗 **Percorso Codice Rosa attivo:** Accoglienza, supporto psicologico e protezione immediata con personale formato per reati di violenza di genere.\n* 💰 **Ticket Esente:** Prestazioni gratuite per vittime di violenza.\n* 🚑 **Soccorso Sanitario H24**\n",
+        "indirizzo": "Via Papa Giovanni Ventitreesimo 4, 25063, Gardone Val Trompia",
+        "telefono": "+39 030 8933273",
+        "email": "sitr.gardone@asst-spedalicivili.it",
+        "sito_web": "https://gardone.asst-spedalicivili.it/servizi/notizie/notizie_homepage.aspx",
+        "orari": "H24 (Pronto Soccorso)",
+        "codice_rosa": "Disponibile",
+        "bollino_rosa": "no",
+        "gratuito": "Sì",
+        "colore_marker": "#FF0000",
+        "icona": "medical"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.6115303,
+          45.5100233
+        ]
+      },
+      "properties": {
+        "categoria": "SANITA",
+        "tipo": "Pronto Soccorso",
+        "name": "Azienda Ospedaliera Treviglio Caravaggio",
+        "description": "### Azienda Ospedaliera Treviglio Caravaggio\n**Stato:** 🟢 Presidio Sanitario Istituzionale Verificato\n\n**Tipo:** Pronto Soccorso d'Emergenza\n**📍 Indirizzo:** Piazzale Ospedale 1, 24047, Treviglio\n**📞 Telefono (Clicca per chiamare):** [+39 0363 4241](tel:+3903634241)\n**🌐 Sito Web:** [Visita il sito](http://www.ospedale.treviglio.bg.it)\n**⏰ Orari:** 24/7\n\n---\n**📚 Servizi di Supporto ed Emergenza:**\n* 💗 **Percorso Codice Rosa attivo:** Accoglienza, supporto psicologico e protezione immediata con personale formato per reati di violenza di genere.\n* 💰 **Ticket Esente:** Prestazioni gratuite per vittime di violenza.\n* 🚑 **Soccorso Sanitario H24**\n",
+        "indirizzo": "Piazzale Ospedale 1, 24047, Treviglio",
+        "telefono": "+39 0363 4241",
+        "email": "",
+        "sito_web": "http://www.ospedale.treviglio.bg.it",
+        "orari": "24/7",
+        "codice_rosa": "Disponibile",
+        "bollino_rosa": "no",
+        "gratuito": "Sì",
+        "colore_marker": "#FF0000",
+        "icona": "medical"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2654334,
+          45.5061844
+        ]
+      },
+      "properties": {
+        "categoria": "SANITA",
+        "tipo": "Pronto Soccorso",
+        "name": "Istituto di Ricovero e Cura a Carattere Scientifico San Raffaele",
+        "description": "### Istituto di Ricovero e Cura a Carattere Scientifico San Raffaele\n**Stato:** 🟢 Presidio Sanitario Istituzionale Verificato\n\n**Tipo:** Pronto Soccorso d'Emergenza\n**📍 Indirizzo:** Indirizzo non disponibile\n**📞 Telefono (Clicca per chiamare):** [+39 02 26431](tel:+390226431)\n**✉️ Email (Clicca per scrivere):** [info@hsr.it](mailto:info@hsr.it)\n**⏰ Orari:** H24 (Pronto Soccorso)\n\n---\n**📚 Servizi di Supporto ed Emergenza:**\n* 💗 **Percorso Codice Rosa attivo:** Accoglienza, supporto psicologico e protezione immediata con personale formato per reati di violenza di genere.\n* 💰 **Ticket Esente:** Prestazioni gratuite per vittime di violenza.\n* 🚑 **Soccorso Sanitario H24**\n",
+        "indirizzo": "Indirizzo non disponibile",
+        "telefono": "+39 02 26431",
+        "email": "info@hsr.it",
+        "sito_web": "",
+        "orari": "H24 (Pronto Soccorso)",
+        "codice_rosa": "Disponibile",
+        "bollino_rosa": "no",
+        "gratuito": "Sì",
+        "colore_marker": "#FF0000",
+        "icona": "medical"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.845622,
+          45.6225255
+        ]
+      },
+      "properties": {
+        "categoria": "SANITA",
+        "tipo": "Pronto Soccorso",
+        "name": "Azienda Ospedaliera Ospedale di Circolo di Busto Arsizio",
+        "description": "### Azienda Ospedaliera Ospedale di Circolo di Busto Arsizio\n**Stato:** 🟢 Presidio Sanitario Istituzionale Verificato\n\n**Tipo:** Pronto Soccorso d'Emergenza\n**📍 Indirizzo:** Indirizzo non disponibile\n**📞 Telefono (Clicca per chiamare):** [+39 0331 699111](tel:+390331699111)\n**🌐 Sito Web:** [Visita il sito](https://www.asst-valleolona.it/presidi/?nP=ospedale-di-busto-arsizio)\n**⏰ Orari:** H24 (Pronto Soccorso)\n\n---\n**📚 Servizi di Supporto ed Emergenza:**\n* 💗 **Percorso Codice Rosa attivo:** Accoglienza, supporto psicologico e protezione immediata con personale formato per reati di violenza di genere.\n* 💰 **Ticket Esente:** Prestazioni gratuite per vittime di violenza.\n* 🚑 **Soccorso Sanitario H24**\n",
+        "indirizzo": "Indirizzo non disponibile",
+        "telefono": "+39 0331 699111",
+        "email": "",
+        "sito_web": "https://www.asst-valleolona.it/presidi/?nP=ospedale-di-busto-arsizio",
+        "orari": "H24 (Pronto Soccorso)",
+        "codice_rosa": "Disponibile",
+        "bollino_rosa": "no",
+        "gratuito": "Sì",
+        "colore_marker": "#FF0000",
+        "icona": "medical"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1960779,
+          45.6263347
+        ]
+      },
+      "properties": {
+        "categoria": "SANITA",
+        "tipo": "Pronto Soccorso",
+        "name": "ASST Brianza - Ospedale Pio XI",
+        "description": "### ASST Brianza - Ospedale Pio XI\n**Stato:** 🟢 Presidio Sanitario Istituzionale Verificato\n\n**Tipo:** Pronto Soccorso d'Emergenza\n**📍 Indirizzo:** Via Mazzini 1, 20832, Desio\n**📞 Telefono (Clicca per chiamare):** [+39 0362 3851](tel:+3903623851)\n**🌐 Sito Web:** [Visita il sito](https://www.asst-brianza.it)\n**⏰ Orari:** H24 (Pronto Soccorso)\n\n---\n**📚 Servizi di Supporto ed Emergenza:**\n* 💗 **Percorso Codice Rosa attivo:** Accoglienza, supporto psicologico e protezione immediata con personale formato per reati di violenza di genere.\n* 💰 **Ticket Esente:** Prestazioni gratuite per vittime di violenza.\n* 🚑 **Soccorso Sanitario H24**\n",
+        "indirizzo": "Via Mazzini 1, 20832, Desio",
+        "telefono": "+39 0362 3851",
+        "email": "",
+        "sito_web": "https://www.asst-brianza.it",
+        "orari": "H24 (Pronto Soccorso)",
+        "codice_rosa": "Disponibile",
+        "bollino_rosa": "no",
+        "gratuito": "Sì",
+        "colore_marker": "#FF0000",
+        "icona": "medical"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2601687,
+          45.602285
+        ]
+      },
+      "properties": {
+        "categoria": "SANITA",
+        "tipo": "Pronto Soccorso",
+        "name": "Ospedale San Gerardo",
+        "description": "### Ospedale San Gerardo\n**Stato:** 🟢 Presidio Sanitario Istituzionale Verificato\n\n**Tipo:** Pronto Soccorso d'Emergenza\n**📍 Indirizzo:** Via Giovanni Battista Pergolesi 33, 20900, Monza\n**📞 Telefono (Clicca per chiamare):** [+39 039 2331](tel:+390392331)\n**🌐 Sito Web:** [Visita il sito](https://www.asst-monza.it/ospedale-san-gerardo)\n**⏰ Orari:** H24 (Pronto Soccorso)\n\n---\n**📚 Servizi di Supporto ed Emergenza:**\n* 💗 **Percorso Codice Rosa attivo:** Accoglienza, supporto psicologico e protezione immediata con personale formato per reati di violenza di genere.\n* 💰 **Ticket Esente:** Prestazioni gratuite per vittime di violenza.\n* 🚑 **Soccorso Sanitario H24**\n",
+        "indirizzo": "Via Giovanni Battista Pergolesi 33, 20900, Monza",
+        "telefono": "+39 039 2331",
+        "email": "",
+        "sito_web": "https://www.asst-monza.it/ospedale-san-gerardo",
+        "orari": "H24 (Pronto Soccorso)",
+        "codice_rosa": "Disponibile",
+        "bollino_rosa": "no",
+        "gratuito": "Sì",
+        "colore_marker": "#FF0000",
+        "icona": "medical"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.8344288,
+          45.8155782
+        ]
+      },
+      "properties": {
+        "categoria": "SANITA",
+        "tipo": "Pronto Soccorso",
+        "name": "Ospedale Filippo Del Ponte",
+        "description": "### Ospedale Filippo Del Ponte\n**Stato:** 🟢 Presidio Sanitario Istituzionale Verificato\n\n**Tipo:** Pronto Soccorso d'Emergenza\n**📍 Indirizzo:** Indirizzo non disponibile\n**📞 Telefono (Clicca per chiamare):** [112](tel:112) / [118](tel:118)\n**⏰ Orari:** H24 (Pronto Soccorso)\n\n---\n**📚 Servizi di Supporto ed Emergenza:**\n* 💗 **Percorso Codice Rosa attivo:** Accoglienza, supporto psicologico e protezione immediata con personale formato per reati di violenza di genere.\n* 💰 **Ticket Esente:** Prestazioni gratuite per vittime di violenza.\n* 🚑 **Soccorso Sanitario H24**\n",
+        "indirizzo": "Indirizzo non disponibile",
+        "telefono": "112 / 118",
+        "email": "",
+        "sito_web": "",
+        "orari": "H24 (Pronto Soccorso)",
+        "codice_rosa": "Disponibile",
+        "bollino_rosa": "no",
+        "gratuito": "Sì",
+        "colore_marker": "#FF0000",
+        "icona": "medical"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.8879341,
+          45.5803294
+        ]
+      },
+      "properties": {
+        "categoria": "SANITA",
+        "tipo": "Pronto Soccorso",
+        "name": "Ospedale nuovo di Legnano",
+        "description": "### Ospedale nuovo di Legnano\n**Stato:** 🟢 Presidio Sanitario Istituzionale Verificato\n\n**Tipo:** Pronto Soccorso d'Emergenza\n**📍 Indirizzo:** Via Papa Giovanni Paolo Secondo 3, 20025, Legnano\n**📞 Telefono (Clicca per chiamare):** [+39 0331 449111](tel:+390331449111)\n**🌐 Sito Web:** [Visita il sito](https://www.asst-ovestmi.it/)\n**⏰ Orari:** H24 (Pronto Soccorso)\n\n---\n**📚 Servizi di Supporto ed Emergenza:**\n* 💗 **Percorso Codice Rosa attivo:** Accoglienza, supporto psicologico e protezione immediata con personale formato per reati di violenza di genere.\n* 💰 **Ticket Esente:** Prestazioni gratuite per vittime di violenza.\n* 🚑 **Soccorso Sanitario H24**\n",
+        "indirizzo": "Via Papa Giovanni Paolo Secondo 3, 20025, Legnano",
+        "telefono": "+39 0331 449111",
+        "email": "",
+        "sito_web": "https://www.asst-ovestmi.it/",
+        "orari": "H24 (Pronto Soccorso)",
+        "codice_rosa": "Disponibile",
+        "bollino_rosa": "no",
+        "gratuito": "Sì",
+        "colore_marker": "#FF0000",
+        "icona": "medical"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.0347442,
+          45.5345193
+        ]
+      },
+      "properties": {
+        "categoria": "SANITA",
+        "tipo": "Pronto Soccorso",
+        "name": "Ospedale di Circolo - Rho",
+        "description": "### Ospedale di Circolo - Rho\n**Stato:** 🟢 Presidio Sanitario Istituzionale Verificato\n\n**Tipo:** Pronto Soccorso d'Emergenza\n**📍 Indirizzo:** Corso Europa 250, 20017, Rho\n**📞 Telefono (Clicca per chiamare):** [112](tel:112) / [118](tel:118)\n**🌐 Sito Web:** [Visita il sito](http://www.aogarbagnate.lombardia.it/salviniweb/hrho.html)\n**⏰ Orari:** H24 (Pronto Soccorso)\n\n---\n**📚 Servizi di Supporto ed Emergenza:**\n* 💗 **Percorso Codice Rosa attivo:** Accoglienza, supporto psicologico e protezione immediata con personale formato per reati di violenza di genere.\n* 💰 **Ticket Esente:** Prestazioni gratuite per vittime di violenza.\n* 🚑 **Soccorso Sanitario H24**\n",
+        "indirizzo": "Corso Europa 250, 20017, Rho",
+        "telefono": "112 / 118",
+        "email": "",
+        "sito_web": "http://www.aogarbagnate.lombardia.it/salviniweb/hrho.html",
+        "orari": "H24 (Pronto Soccorso)",
+        "codice_rosa": "Disponibile",
+        "bollino_rosa": "no",
+        "gratuito": "Sì",
+        "colore_marker": "#FF0000",
+        "icona": "medical"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.0881862,
+          45.8104854
+        ]
+      },
+      "properties": {
+        "categoria": "SANITA",
+        "tipo": "Pronto Soccorso",
+        "name": "Ospedale Valduce",
+        "description": "### Ospedale Valduce\n**Stato:** 🟢 Presidio Sanitario Istituzionale Verificato\n\n**Tipo:** Pronto Soccorso d'Emergenza\n**📍 Indirizzo:** Indirizzo non disponibile\n**📞 Telefono (Clicca per chiamare):** [112](tel:112) / [118](tel:118)\n**⏰ Orari:** H24 (Pronto Soccorso)\n\n---\n**📚 Servizi di Supporto ed Emergenza:**\n* 💗 **Percorso Codice Rosa attivo:** Accoglienza, supporto psicologico e protezione immediata con personale formato per reati di violenza di genere.\n* 💰 **Ticket Esente:** Prestazioni gratuite per vittime di violenza.\n* 🚑 **Soccorso Sanitario H24**\n",
+        "indirizzo": "Indirizzo non disponibile",
+        "telefono": "112 / 118",
+        "email": "",
+        "sito_web": "",
+        "orari": "H24 (Pronto Soccorso)",
+        "codice_rosa": "Disponibile",
+        "bollino_rosa": "no",
+        "gratuito": "Sì",
+        "colore_marker": "#FF0000",
+        "icona": "medical"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.045615,
+          45.7932135
+        ]
+      },
+      "properties": {
+        "categoria": "SANITA",
+        "tipo": "Pronto Soccorso",
+        "name": "Ospedale Sant'Anna di Como",
+        "description": "### Ospedale Sant'Anna di Como\n**Stato:** 🟢 Presidio Sanitario Istituzionale Verificato\n\n**Tipo:** Pronto Soccorso d'Emergenza\n**📍 Indirizzo:** Indirizzo non disponibile\n**📞 Telefono (Clicca per chiamare):** [112](tel:112) / [118](tel:118)\n**⏰ Orari:** H24 (Pronto Soccorso)\n\n---\n**📚 Servizi di Supporto ed Emergenza:**\n* 💗 **Percorso Codice Rosa attivo:** Accoglienza, supporto psicologico e protezione immediata con personale formato per reati di violenza di genere.\n* 💰 **Ticket Esente:** Prestazioni gratuite per vittime di violenza.\n* 🚑 **Soccorso Sanitario H24**\n",
+        "indirizzo": "Indirizzo non disponibile",
+        "telefono": "112 / 118",
+        "email": "",
+        "sito_web": "",
+        "orari": "H24 (Pronto Soccorso)",
+        "codice_rosa": "Disponibile",
+        "bollino_rosa": "no",
+        "gratuito": "Sì",
+        "colore_marker": "#FF0000",
+        "icona": "medical"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.3228785,
+          45.9181046
+        ]
+      },
+      "properties": {
+        "categoria": "SANITA",
+        "tipo": "Pronto Soccorso",
+        "name": "Soccorso degli Alpini",
+        "description": "### Soccorso degli Alpini\n**Stato:** 🟢 Presidio Sanitario Istituzionale Verificato\n\n**Tipo:** Pronto Soccorso d'Emergenza\n**📍 Indirizzo:** Via degli Alpini 3, 23826, Mandello del Lario\n**📞 Telefono (Clicca per chiamare):** [112](tel:112) / [118](tel:118)\n**🌐 Sito Web:** [Visita il sito](https://www.soccorsodeglialpini.it/)\n**⏰ Orari:** H24 (Pronto Soccorso)\n\n---\n**📚 Servizi di Supporto ed Emergenza:**\n* 💗 **Percorso Codice Rosa attivo:** Accoglienza, supporto psicologico e protezione immediata con personale formato per reati di violenza di genere.\n* 💰 **Ticket Esente:** Prestazioni gratuite per vittime di violenza.\n* 🚑 **Soccorso Sanitario H24**\n",
+        "indirizzo": "Via degli Alpini 3, 23826, Mandello del Lario",
+        "telefono": "112 / 118",
+        "email": "",
+        "sito_web": "https://www.soccorsodeglialpini.it/",
+        "orari": "H24 (Pronto Soccorso)",
+        "codice_rosa": "Disponibile",
+        "bollino_rosa": "no",
+        "gratuito": "Sì",
+        "colore_marker": "#FF0000",
+        "icona": "medical"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.399787,
+          46.3217759
+        ]
+      },
+      "properties": {
+        "categoria": "SANITA",
+        "tipo": "Pronto Soccorso",
+        "name": "Ospedale di Chiavenna",
+        "description": "### Ospedale di Chiavenna\n**Stato:** 🟢 Presidio Sanitario Istituzionale Verificato\n\n**Tipo:** Pronto Soccorso d'Emergenza\n**📍 Indirizzo:** Via della Cereria 4, 23022, Chiavenna\n**📞 Telefono (Clicca per chiamare):** [+39034367111](tel:+39034367111)\n**✉️ Email (Clicca per scrivere):** [direzionemedica.ch@asst-val.it](mailto:direzionemedica.ch@asst-val.it)\n**🌐 Sito Web:** [Visita il sito](https://www.asst-val.it/chiavenna)\n**⏰ Orari:** H24 (Pronto Soccorso)\n\n---\n**📚 Servizi di Supporto ed Emergenza:**\n* 💗 **Percorso Codice Rosa attivo:** Accoglienza, supporto psicologico e protezione immediata con personale formato per reati di violenza di genere.\n* 💰 **Ticket Esente:** Prestazioni gratuite per vittime di violenza.\n* 🚑 **Soccorso Sanitario H24**\n",
+        "indirizzo": "Via della Cereria 4, 23022, Chiavenna",
+        "telefono": "+39034367111",
+        "email": "direzionemedica.ch@asst-val.it",
+        "sito_web": "https://www.asst-val.it/chiavenna",
+        "orari": "H24 (Pronto Soccorso)",
+        "codice_rosa": "Disponibile",
+        "bollino_rosa": "no",
+        "gratuito": "Sì",
+        "colore_marker": "#FF0000",
+        "icona": "medical"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.415021,
+          45.852056
+        ]
+      },
+      "properties": {
+        "categoria": "SANITA",
+        "tipo": "Pronto Soccorso",
+        "name": "Ospedale Alessandro Manzoni",
+        "description": "### Ospedale Alessandro Manzoni\n**Stato:** 🟢 Presidio Sanitario Istituzionale Verificato\n\n**Tipo:** Pronto Soccorso d'Emergenza\n**📍 Indirizzo:** Via dell'Eremo 9;11, 23900, Lecco\n**📞 Telefono (Clicca per chiamare):** [112](tel:112) / [118](tel:118)\n**⏰ Orari:** H24 (Pronto Soccorso)\n\n---\n**📚 Servizi di Supporto ed Emergenza:**\n* 💗 **Percorso Codice Rosa attivo:** Accoglienza, supporto psicologico e protezione immediata con personale formato per reati di violenza di genere.\n* 💰 **Ticket Esente:** Prestazioni gratuite per vittime di violenza.\n* 🚑 **Soccorso Sanitario H24**\n",
+        "indirizzo": "Via dell'Eremo 9;11, 23900, Lecco",
+        "telefono": "112 / 118",
+        "email": "",
+        "sito_web": "",
+        "orari": "H24 (Pronto Soccorso)",
+        "codice_rosa": "Disponibile",
+        "bollino_rosa": "no",
+        "gratuito": "Sì",
+        "colore_marker": "#FF0000",
+        "icona": "medical"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9344506,
+          45.5380785
+        ]
+      },
+      "properties": {
+        "categoria": "SANITA",
+        "tipo": "Pronto Soccorso",
+        "name": "A.S.S.T. - Franciacorta",
+        "description": "### A.S.S.T. - Franciacorta\n**Stato:** 🟢 Presidio Sanitario Istituzionale Verificato\n\n**Tipo:** Pronto Soccorso d'Emergenza\n**📍 Indirizzo:** Viale Giuseppe Mazzini 4, 25032, Chiari\n**📞 Telefono (Clicca per chiamare):** [112](tel:112) / [118](tel:118)\n**⏰ Orari:** H24 (Pronto Soccorso)\n\n---\n**📚 Servizi di Supporto ed Emergenza:**\n* 💗 **Percorso Codice Rosa attivo:** Accoglienza, supporto psicologico e protezione immediata con personale formato per reati di violenza di genere.\n* 💰 **Ticket Esente:** Prestazioni gratuite per vittime di violenza.\n* 🚑 **Soccorso Sanitario H24**\n",
+        "indirizzo": "Viale Giuseppe Mazzini 4, 25032, Chiari",
+        "telefono": "112 / 118",
+        "email": "",
+        "sito_web": "",
+        "orari": "H24 (Pronto Soccorso)",
+        "codice_rosa": "Disponibile",
+        "bollino_rosa": "no",
+        "gratuito": "Sì",
+        "colore_marker": "#FF0000",
+        "icona": "medical"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.7976798,
+          45.6203072
+        ]
+      },
+      "properties": {
+        "categoria": "SANITA",
+        "tipo": "Pronto Soccorso",
+        "name": "Ospedale di Calcinate \"F.M. Passi\"",
+        "description": "### Ospedale di Calcinate \"F.M. Passi\"\n**Stato:** 🟢 Presidio Sanitario Istituzionale Verificato\n\n**Tipo:** Pronto Soccorso d'Emergenza\n**📍 Indirizzo:** Piazza Ospedale 3, 24050, Calcinate\n**📞 Telefono (Clicca per chiamare):** [112](tel:112) / [118](tel:118)\n**⏰ Orari:** H24 (Pronto Soccorso)\n\n---\n**📚 Servizi di Supporto ed Emergenza:**\n* 💗 **Percorso Codice Rosa attivo:** Accoglienza, supporto psicologico e protezione immediata con personale formato per reati di violenza di genere.\n* 💰 **Ticket Esente:** Prestazioni gratuite per vittime di violenza.\n* 🚑 **Soccorso Sanitario H24**\n",
+        "indirizzo": "Piazza Ospedale 3, 24050, Calcinate",
+        "telefono": "112 / 118",
+        "email": "",
+        "sito_web": "",
+        "orari": "H24 (Pronto Soccorso)",
+        "codice_rosa": "Disponibile",
+        "bollino_rosa": "no",
+        "gratuito": "Sì",
+        "colore_marker": "#FF0000",
+        "icona": "medical"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2463629,
+          45.6706491
+        ]
+      },
+      "properties": {
+        "categoria": "SANITA",
+        "tipo": "Pronto Soccorso",
+        "name": "ASST Brianza - Ospedale di Carate Brianza",
+        "description": "### ASST Brianza - Ospedale di Carate Brianza\n**Stato:** 🟢 Presidio Sanitario Istituzionale Verificato\n\n**Tipo:** Pronto Soccorso d'Emergenza\n**📍 Indirizzo:** Viale Mosè Bianchi 9, 20841, Carate Brianza\n**📞 Telefono (Clicca per chiamare):** [+39 0362 9841](tel:+3903629841)\n**🌐 Sito Web:** [Visita il sito](https://www.asst-brianza.it)\n**⏰ Orari:** H24 (Pronto Soccorso)\n\n---\n**📚 Servizi di Supporto ed Emergenza:**\n* 💗 **Percorso Codice Rosa attivo:** Accoglienza, supporto psicologico e protezione immediata con personale formato per reati di violenza di genere.\n* 💰 **Ticket Esente:** Prestazioni gratuite per vittime di violenza.\n* 🚑 **Soccorso Sanitario H24**\n",
+        "indirizzo": "Viale Mosè Bianchi 9, 20841, Carate Brianza",
+        "telefono": "+39 0362 9841",
+        "email": "",
+        "sito_web": "https://www.asst-brianza.it",
+        "orari": "H24 (Pronto Soccorso)",
+        "codice_rosa": "Disponibile",
+        "bollino_rosa": "no",
+        "gratuito": "Sì",
+        "colore_marker": "#FF0000",
+        "icona": "medical"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.912882,
+          45.3941714
+        ]
+      },
+      "properties": {
+        "categoria": "SANITA",
+        "tipo": "Pronto Soccorso",
+        "name": "Ospedale Costantino Cantù",
+        "description": "### Ospedale Costantino Cantù\n**Stato:** 🟢 Presidio Sanitario Istituzionale Verificato\n\n**Tipo:** Pronto Soccorso d'Emergenza\n**📍 Indirizzo:** Indirizzo non disponibile\n**📞 Telefono (Clicca per chiamare):** [112](tel:112) / [118](tel:118)\n**⏰ Orari:** H24 (Pronto Soccorso)\n\n---\n**📚 Servizi di Supporto ed Emergenza:**\n* 💗 **Percorso Codice Rosa attivo:** Accoglienza, supporto psicologico e protezione immediata con personale formato per reati di violenza di genere.\n* 💰 **Ticket Esente:** Prestazioni gratuite per vittime di violenza.\n* 🚑 **Soccorso Sanitario H24**\n",
+        "indirizzo": "Indirizzo non disponibile",
+        "telefono": "112 / 118",
+        "email": "",
+        "sito_web": "",
+        "orari": "H24 (Pronto Soccorso)",
+        "codice_rosa": "Disponibile",
+        "bollino_rosa": "no",
+        "gratuito": "Sì",
+        "colore_marker": "#FF0000",
+        "icona": "medical"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.5909715,
+          45.6042366
+        ]
+      },
+      "properties": {
+        "categoria": "SANITA",
+        "tipo": "Pronto Soccorso",
+        "name": "Policlinico San Marco",
+        "description": "### Policlinico San Marco\n**Stato:** 🟢 Presidio Sanitario Istituzionale Verificato\n\n**Tipo:** Pronto Soccorso d'Emergenza\n**📍 Indirizzo:** Corso Europa 7\n**📞 Telefono (Clicca per chiamare):** [+39 035 886111](tel:+39035886111)\n**✉️ Email (Clicca per scrivere):** [info.psm@grupposandonato.it](mailto:info.psm@grupposandonato.it)\n**🌐 Sito Web:** [Visita il sito](https://www.grupposandonato.it/strutture/policlinico-san-marco)\n**⏰ Orari:** H24 (Pronto Soccorso)\n\n---\n**📚 Servizi di Supporto ed Emergenza:**\n* 💗 **Percorso Codice Rosa attivo:** Accoglienza, supporto psicologico e protezione immediata con personale formato per reati di violenza di genere.\n* 💰 **Ticket Esente:** Prestazioni gratuite per vittime di violenza.\n* 🚑 **Soccorso Sanitario H24**\n",
+        "indirizzo": "Corso Europa 7",
+        "telefono": "+39 035 886111",
+        "email": "info.psm@grupposandonato.it",
+        "sito_web": "https://www.grupposandonato.it/strutture/policlinico-san-marco",
+        "orari": "H24 (Pronto Soccorso)",
+        "codice_rosa": "Disponibile",
+        "bollino_rosa": "no",
+        "gratuito": "Sì",
+        "colore_marker": "#FF0000",
+        "icona": "medical"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.7503993,
+          45.5195862
+        ]
+      },
+      "properties": {
+        "categoria": "SANITA",
+        "tipo": "Pronto Soccorso",
+        "name": "Ospedale Santissima Trinità",
+        "description": "### Ospedale Santissima Trinità\n**Stato:** 🟢 Presidio Sanitario Istituzionale Verificato\n\n**Tipo:** Pronto Soccorso d'Emergenza\n**📍 Indirizzo:** Indirizzo non disponibile\n**📞 Telefono (Clicca per chiamare):** [+39 0363 9901](tel:+3903639901)\n**✉️ Email (Clicca per scrivere):** [info@ospedale.treviglio.bg.it](mailto:info@ospedale.treviglio.bg.it)\n**🌐 Sito Web:** [Visita il sito](http://www.ospedale.treviglio.bg.it/85.asp)\n**⏰ Orari:** H24 (Pronto Soccorso)\n\n---\n**📚 Servizi di Supporto ed Emergenza:**\n* 💗 **Percorso Codice Rosa attivo:** Accoglienza, supporto psicologico e protezione immediata con personale formato per reati di violenza di genere.\n* 💰 **Ticket Esente:** Prestazioni gratuite per vittime di violenza.\n* 🚑 **Soccorso Sanitario H24**\n",
+        "indirizzo": "Indirizzo non disponibile",
+        "telefono": "+39 0363 9901",
+        "email": "info@ospedale.treviglio.bg.it",
+        "sito_web": "http://www.ospedale.treviglio.bg.it/85.asp",
+        "orari": "H24 (Pronto Soccorso)",
+        "codice_rosa": "Disponibile",
+        "bollino_rosa": "no",
+        "gratuito": "Sì",
+        "colore_marker": "#FF0000",
+        "icona": "medical"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.4111058,
+          45.2234991
+        ]
+      },
+      "properties": {
+        "categoria": "SANITA",
+        "tipo": "Pronto Soccorso",
+        "name": "Ospedale di Asola",
+        "description": "### Ospedale di Asola\n**Stato:** 🟢 Presidio Sanitario Istituzionale Verificato\n\n**Tipo:** Pronto Soccorso d'Emergenza\n**📍 Indirizzo:** Indirizzo non disponibile\n**📞 Telefono (Clicca per chiamare):** [112](tel:112) / [118](tel:118)\n**⏰ Orari:** H24 (Pronto Soccorso)\n\n---\n**📚 Servizi di Supporto ed Emergenza:**\n* 💗 **Percorso Codice Rosa attivo:** Accoglienza, supporto psicologico e protezione immediata con personale formato per reati di violenza di genere.\n* 💰 **Ticket Esente:** Prestazioni gratuite per vittime di violenza.\n* 🚑 **Soccorso Sanitario H24**\n",
+        "indirizzo": "Indirizzo non disponibile",
+        "telefono": "112 / 118",
+        "email": "",
+        "sito_web": "",
+        "orari": "H24 (Pronto Soccorso)",
+        "codice_rosa": "Disponibile",
+        "bollino_rosa": "no",
+        "gratuito": "Sì",
+        "colore_marker": "#FF0000",
+        "icona": "medical"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5789299,
+          45.7756028
+        ]
+      },
+      "properties": {
+        "categoria": "SANITA",
+        "tipo": "Pronto Soccorso",
+        "name": "Ospedale Carlo Ondoli",
+        "description": "### Ospedale Carlo Ondoli\n**Stato:** 🟢 Presidio Sanitario Istituzionale Verificato\n\n**Tipo:** Pronto Soccorso d'Emergenza\n**📍 Indirizzo:** Via Bordini 9, 21021, Angera\n**📞 Telefono (Clicca per chiamare):** [112](tel:112) / [118](tel:118)\n**⏰ Orari:** H24 (Pronto Soccorso)\n\n---\n**📚 Servizi di Supporto ed Emergenza:**\n* 💗 **Percorso Codice Rosa attivo:** Accoglienza, supporto psicologico e protezione immediata con personale formato per reati di violenza di genere.\n* 💰 **Ticket Esente:** Prestazioni gratuite per vittime di violenza.\n* 🚑 **Soccorso Sanitario H24**\n",
+        "indirizzo": "Via Bordini 9, 21021, Angera",
+        "telefono": "112 / 118",
+        "email": "",
+        "sito_web": "",
+        "orari": "H24 (Pronto Soccorso)",
+        "codice_rosa": "Disponibile",
+        "bollino_rosa": "no",
+        "gratuito": "Sì",
+        "colore_marker": "#FF0000",
+        "icona": "medical"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.3410013,
+          45.3584424
+        ]
+      },
+      "properties": {
+        "categoria": "SANITA",
+        "tipo": "Pronto Soccorso",
+        "name": "Presidio Ospedaliero di Vizzolo Predabissi",
+        "description": "### Presidio Ospedaliero di Vizzolo Predabissi\n**Stato:** 🟢 Presidio Sanitario Istituzionale Verificato\n\n**Tipo:** Pronto Soccorso d'Emergenza\n**📍 Indirizzo:** Via Pandina 1, 20070, Vizzolo Predabissi\n**📞 Telefono (Clicca per chiamare):** [112](tel:112) / [118](tel:118)\n**⏰ Orari:** H24 (Pronto Soccorso)\n\n---\n**📚 Servizi di Supporto ed Emergenza:**\n* 💗 **Percorso Codice Rosa attivo:** Accoglienza, supporto psicologico e protezione immediata con personale formato per reati di violenza di genere.\n* 💰 **Ticket Esente:** Prestazioni gratuite per vittime di violenza.\n* 🚑 **Soccorso Sanitario H24**\n",
+        "indirizzo": "Via Pandina 1, 20070, Vizzolo Predabissi",
+        "telefono": "112 / 118",
+        "email": "",
+        "sito_web": "",
+        "orari": "H24 (Pronto Soccorso)",
+        "codice_rosa": "Disponibile",
+        "bollino_rosa": "no",
+        "gratuito": "Sì",
+        "colore_marker": "#FF0000",
+        "icona": "medical"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1719085,
+          45.4635012
+        ]
+      },
+      "properties": {
+        "categoria": "SANITA",
+        "tipo": "Pronto Soccorso",
+        "name": "Ospedale San Giuseppe",
+        "description": "### Ospedale San Giuseppe\n**Stato:** 🟢 Presidio Sanitario Istituzionale Verificato\n\n**Tipo:** Pronto Soccorso d'Emergenza\n**📍 Indirizzo:** Indirizzo non disponibile\n**📞 Telefono (Clicca per chiamare):** [+39 02 85991](tel:+390285991)\n**🌐 Sito Web:** [Visita il sito](https://www.multimedica.it/it/hospital/ospedale-san-giuseppe/030367)\n**⏰ Orari:** H24 (Pronto Soccorso)\n\n---\n**📚 Servizi di Supporto ed Emergenza:**\n* 💗 **Percorso Codice Rosa attivo:** Accoglienza, supporto psicologico e protezione immediata con personale formato per reati di violenza di genere.\n* 💰 **Ticket Esente:** Prestazioni gratuite per vittime di violenza.\n* 🚑 **Soccorso Sanitario H24**\n",
+        "indirizzo": "Indirizzo non disponibile",
+        "telefono": "+39 02 85991",
+        "email": "",
+        "sito_web": "https://www.multimedica.it/it/hospital/ospedale-san-giuseppe/030367",
+        "orari": "H24 (Pronto Soccorso)",
+        "codice_rosa": "Disponibile",
+        "bollino_rosa": "no",
+        "gratuito": "Sì",
+        "colore_marker": "#FF0000",
+        "icona": "medical"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1937126,
+          45.4548738
+        ]
+      },
+      "properties": {
+        "categoria": "SANITA",
+        "tipo": "Pronto Soccorso",
+        "name": "Presidio Ospedaliero Gaetano Pini - ASST Pini-CTO",
+        "description": "### Presidio Ospedaliero Gaetano Pini - ASST Pini-CTO\n**Stato:** 🟢 Presidio Sanitario Istituzionale Verificato\n\n**Tipo:** Pronto Soccorso d'Emergenza\n**📍 Indirizzo:** Piazza Cardinale Andrea Ferrari 1, 20122, Milano\n**📞 Telefono (Clicca per chiamare):** [+39 02 582961](tel:+3902582961)\n**🌐 Sito Web:** [Visita il sito](https://www.asst-pini-cto.it)\n**⏰ Orari:** H24 (Pronto Soccorso)\n\n---\n**📚 Servizi di Supporto ed Emergenza:**\n* 💗 **Percorso Codice Rosa attivo:** Accoglienza, supporto psicologico e protezione immediata con personale formato per reati di violenza di genere.\n* 💰 **Ticket Esente:** Prestazioni gratuite per vittime di violenza.\n* 🚑 **Soccorso Sanitario H24**\n",
+        "indirizzo": "Piazza Cardinale Andrea Ferrari 1, 20122, Milano",
+        "telefono": "+39 02 582961",
+        "email": "",
+        "sito_web": "https://www.asst-pini-cto.it",
+        "orari": "H24 (Pronto Soccorso)",
+        "codice_rosa": "Disponibile",
+        "bollino_rosa": "no",
+        "gratuito": "Sì",
+        "colore_marker": "#FF0000",
+        "icona": "medical"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2190851,
+          45.4663415
+        ]
+      },
+      "properties": {
+        "categoria": "SANITA",
+        "tipo": "Pronto Soccorso",
+        "name": "Ospedale Macedonio Melloni",
+        "description": "### Ospedale Macedonio Melloni\n**Stato:** 🟢 Presidio Sanitario Istituzionale Verificato\n\n**Tipo:** Pronto Soccorso d'Emergenza\n**📍 Indirizzo:** Indirizzo non disponibile\n**📞 Telefono (Clicca per chiamare):** [112](tel:112) / [118](tel:118)\n**⏰ Orari:** H24 (Pronto Soccorso)\n\n---\n**📚 Servizi di Supporto ed Emergenza:**\n* 💗 **Percorso Codice Rosa attivo:** Accoglienza, supporto psicologico e protezione immediata con personale formato per reati di violenza di genere.\n* 💰 **Ticket Esente:** Prestazioni gratuite per vittime di violenza.\n* 🚑 **Soccorso Sanitario H24**\n",
+        "indirizzo": "Indirizzo non disponibile",
+        "telefono": "112 / 118",
+        "email": "",
+        "sito_web": "",
+        "orari": "H24 (Pronto Soccorso)",
+        "codice_rosa": "Disponibile",
+        "bollino_rosa": "no",
+        "gratuito": "Sì",
+        "colore_marker": "#FF0000",
+        "icona": "medical"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.8936127,
+          45.4709187
+        ]
+      },
+      "properties": {
+        "categoria": "SANITA",
+        "tipo": "Pronto Soccorso",
+        "name": "Ospedale Giuseppe Fornaroli",
+        "description": "### Ospedale Giuseppe Fornaroli\n**Stato:** 🟢 Presidio Sanitario Istituzionale Verificato\n\n**Tipo:** Pronto Soccorso d'Emergenza\n**📍 Indirizzo:** Via al donatore di sangue 50, 20013, Magenta\n**📞 Telefono (Clicca per chiamare):** [+39 02 979631](tel:+3902979631)\n**🌐 Sito Web:** [Visita il sito](https://www.asst-ovestmi.it/)\n**⏰ Orari:** H24 (Pronto Soccorso)\n\n---\n**📚 Servizi di Supporto ed Emergenza:**\n* 💗 **Percorso Codice Rosa attivo:** Accoglienza, supporto psicologico e protezione immediata con personale formato per reati di violenza di genere.\n* 💰 **Ticket Esente:** Prestazioni gratuite per vittime di violenza.\n* 🚑 **Soccorso Sanitario H24**\n",
+        "indirizzo": "Via al donatore di sangue 50, 20013, Magenta",
+        "telefono": "+39 02 979631",
+        "email": "",
+        "sito_web": "https://www.asst-ovestmi.it/",
+        "orari": "H24 (Pronto Soccorso)",
+        "codice_rosa": "Disponibile",
+        "bollino_rosa": "no",
+        "gratuito": "Sì",
+        "colore_marker": "#FF0000",
+        "icona": "medical"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.2308212,
+          45.555981
+        ]
+      },
+      "properties": {
+        "categoria": "SANITA",
+        "tipo": "Pronto Soccorso",
+        "name": "Pronto Soccorso Pediatrico Cavaliere del Lavoro Francesco Folonari",
+        "description": "### Pronto Soccorso Pediatrico Cavaliere del Lavoro Francesco Folonari\n**Stato:** 🟢 Presidio Sanitario Istituzionale Verificato\n\n**Tipo:** Pronto Soccorso d'Emergenza\n**📍 Indirizzo:** Indirizzo non disponibile\n**📞 Telefono (Clicca per chiamare):** [112](tel:112) / [118](tel:118)\n**⏰ Orari:** H24 (Pronto Soccorso)\n\n---\n**📚 Servizi di Supporto ed Emergenza:**\n* 💗 **Percorso Codice Rosa attivo:** Accoglienza, supporto psicologico e protezione immediata con personale formato per reati di violenza di genere.\n* 💰 **Ticket Esente:** Prestazioni gratuite per vittime di violenza.\n* 🚑 **Soccorso Sanitario H24**\n",
+        "indirizzo": "Indirizzo non disponibile",
+        "telefono": "112 / 118",
+        "email": "",
+        "sito_web": "",
+        "orari": "H24 (Pronto Soccorso)",
+        "codice_rosa": "Disponibile",
+        "bollino_rosa": "no",
+        "gratuito": "Sì",
+        "colore_marker": "#FF0000",
+        "icona": "medical"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.7546543,
+          44.9871019
+        ]
+      },
+      "properties": {
+        "categoria": "SANITA",
+        "tipo": "Pronto Soccorso",
+        "name": "Ospedale di Suzzara",
+        "description": "### Ospedale di Suzzara\n**Stato:** 🟢 Presidio Sanitario Istituzionale Verificato\n\n**Tipo:** Pronto Soccorso d'Emergenza\n**📍 Indirizzo:** Via Generale Cantore 14b, 46029, Suzzara\n**📞 Telefono (Clicca per chiamare):** [+39 03 76 51 74 17](tel:+390376517417)\n**✉️ Email (Clicca per scrivere):** [urp@ospedaledisuzzara.it](mailto:urp@ospedaledisuzzara.it)\n**🌐 Sito Web:** [Visita il sito](https://ospedaledisuzzara.it/)\n**⏰ Orari:** H24 (Pronto Soccorso)\n\n---\n**📚 Servizi di Supporto ed Emergenza:**\n* 💗 **Percorso Codice Rosa attivo:** Accoglienza, supporto psicologico e protezione immediata con personale formato per reati di violenza di genere.\n* 💰 **Ticket Esente:** Prestazioni gratuite per vittime di violenza.\n* 🚑 **Soccorso Sanitario H24**\n",
+        "indirizzo": "Via Generale Cantore 14b, 46029, Suzzara",
+        "telefono": "+39 03 76 51 74 17",
+        "email": "urp@ospedaledisuzzara.it",
+        "sito_web": "https://ospedaledisuzzara.it/",
+        "orari": "H24 (Pronto Soccorso)",
+        "codice_rosa": "Disponibile",
+        "bollino_rosa": "no",
+        "gratuito": "Sì",
+        "colore_marker": "#FF0000",
+        "icona": "medical"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.5753796,
+          45.6989952
+        ]
+      },
+      "properties": {
+        "categoria": "SANITA",
+        "tipo": "Pronto Soccorso",
+        "name": "Policlinico San Pietro",
+        "description": "### Policlinico San Pietro\n**Stato:** 🟢 Presidio Sanitario Istituzionale Verificato\n\n**Tipo:** Pronto Soccorso d'Emergenza\n**📍 Indirizzo:** Indirizzo non disponibile\n**📞 Telefono (Clicca per chiamare):** [112](tel:112) / [118](tel:118)\n**⏰ Orari:** H24 (Pronto Soccorso)\n\n---\n**📚 Servizi di Supporto ed Emergenza:**\n* 💗 **Percorso Codice Rosa attivo:** Accoglienza, supporto psicologico e protezione immediata con personale formato per reati di violenza di genere.\n* 💰 **Ticket Esente:** Prestazioni gratuite per vittime di violenza.\n* 🚑 **Soccorso Sanitario H24**\n",
+        "indirizzo": "Indirizzo non disponibile",
+        "telefono": "112 / 118",
+        "email": "",
+        "sito_web": "",
+        "orari": "H24 (Pronto Soccorso)",
+        "codice_rosa": "Disponibile",
+        "bollino_rosa": "no",
+        "gratuito": "Sì",
+        "colore_marker": "#FF0000",
+        "icona": "medical"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.6546571,
+          45.871144
+        ]
+      },
+      "properties": {
+        "categoria": "SANITA",
+        "tipo": "Pronto Soccorso",
+        "name": "Ospedale Civile di San Giovanni Bianco",
+        "description": "### Ospedale Civile di San Giovanni Bianco\n**Stato:** 🟢 Presidio Sanitario Istituzionale Verificato\n\n**Tipo:** Pronto Soccorso d'Emergenza\n**📍 Indirizzo:** Via Castelli 5, 24015, San Giovanni Bianco\n**📞 Telefono (Clicca per chiamare):** [112](tel:112) / [118](tel:118)\n**🌐 Sito Web:** [Visita il sito](http://www.asst-pg23.it/2017/02/_ospedale_s_g_bianco/#)\n**⏰ Orari:** H24 (Pronto Soccorso)\n\n---\n**📚 Servizi di Supporto ed Emergenza:**\n* 💗 **Percorso Codice Rosa attivo:** Accoglienza, supporto psicologico e protezione immediata con personale formato per reati di violenza di genere.\n* 💰 **Ticket Esente:** Prestazioni gratuite per vittime di violenza.\n* 🚑 **Soccorso Sanitario H24**\n",
+        "indirizzo": "Via Castelli 5, 24015, San Giovanni Bianco",
+        "telefono": "112 / 118",
+        "email": "",
+        "sito_web": "http://www.asst-pg23.it/2017/02/_ospedale_s_g_bianco/#",
+        "orari": "H24 (Pronto Soccorso)",
+        "codice_rosa": "Disponibile",
+        "bollino_rosa": "no",
+        "gratuito": "Sì",
+        "colore_marker": "#FF0000",
+        "icona": "medical"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2771243,
+          45.4104114
+        ]
+      },
+      "properties": {
+        "categoria": "SANITA",
+        "tipo": "Pronto Soccorso",
+        "name": "I.R.C.C.S. Policlinico San Donato",
+        "description": "### I.R.C.C.S. Policlinico San Donato\n**Stato:** 🟢 Presidio Sanitario Istituzionale Verificato\n\n**Tipo:** Pronto Soccorso d'Emergenza\n**📍 Indirizzo:** Indirizzo non disponibile\n**📞 Telefono (Clicca per chiamare):** [112](tel:112) / [118](tel:118)\n**🌐 Sito Web:** [Visita il sito](https://www.grupposandonato.it/strutture/policlinico-san-donato)\n**⏰ Orari:** H24 (Pronto Soccorso)\n\n---\n**📚 Servizi di Supporto ed Emergenza:**\n* 💗 **Percorso Codice Rosa attivo:** Accoglienza, supporto psicologico e protezione immediata con personale formato per reati di violenza di genere.\n* 💰 **Ticket Esente:** Prestazioni gratuite per vittime di violenza.\n* 🚑 **Soccorso Sanitario H24**\n",
+        "indirizzo": "Indirizzo non disponibile",
+        "telefono": "112 / 118",
+        "email": "",
+        "sito_web": "https://www.grupposandonato.it/strutture/policlinico-san-donato",
+        "orari": "H24 (Pronto Soccorso)",
+        "codice_rosa": "Disponibile",
+        "bollino_rosa": "no",
+        "gratuito": "Sì",
+        "colore_marker": "#FF0000",
+        "icona": "medical"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.0946521,
+          45.5831611
+        ]
+      },
+      "properties": {
+        "categoria": "SANITA",
+        "tipo": "Pronto Soccorso",
+        "name": "Ospedale Guido Salvini",
+        "description": "### Ospedale Guido Salvini\n**Stato:** 🟢 Presidio Sanitario Istituzionale Verificato\n\n**Tipo:** Pronto Soccorso d'Emergenza\n**📍 Indirizzo:** Viale Carlo Forlanini 95, 20024, Garbagnate Milanese\n**📞 Telefono (Clicca per chiamare):** [+3902994301](tel:+3902994301)\n**🌐 Sito Web:** [Visita il sito](https://www.asst-rhodense.it/inew/nuovo-sito/home/ospedali/garbagnate-milanese.html)\n**⏰ Orari:** H24 (Pronto Soccorso)\n\n---\n**📚 Servizi di Supporto ed Emergenza:**\n* 💗 **Percorso Codice Rosa attivo:** Accoglienza, supporto psicologico e protezione immediata con personale formato per reati di violenza di genere.\n* 💰 **Ticket Esente:** Prestazioni gratuite per vittime di violenza.\n* 🚑 **Soccorso Sanitario H24**\n",
+        "indirizzo": "Viale Carlo Forlanini 95, 20024, Garbagnate Milanese",
+        "telefono": "+3902994301",
+        "email": "",
+        "sito_web": "https://www.asst-rhodense.it/inew/nuovo-sito/home/ospedali/garbagnate-milanese.html",
+        "orari": "H24 (Pronto Soccorso)",
+        "codice_rosa": "Disponibile",
+        "bollino_rosa": "no",
+        "gratuito": "Sì",
+        "colore_marker": "#FF0000",
+        "icona": "medical"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2280077,
+          46.0185516
+        ]
+      },
+      "properties": {
+        "categoria": "SANITA",
+        "tipo": "Pronto Soccorso",
+        "name": "ASST Lariana",
+        "description": "### ASST Lariana\n**Stato:** 🟢 Presidio Sanitario Istituzionale Verificato\n\n**Tipo:** Pronto Soccorso d'Emergenza\n**📍 Indirizzo:** Indirizzo non disponibile\n**📞 Telefono (Clicca per chiamare):** [112](tel:112) / [118](tel:118)\n**⏰ Orari:** H24 (Pronto Soccorso)\n\n---\n**📚 Servizi di Supporto ed Emergenza:**\n* 💗 **Percorso Codice Rosa attivo:** Accoglienza, supporto psicologico e protezione immediata con personale formato per reati di violenza di genere.\n* 💰 **Ticket Esente:** Prestazioni gratuite per vittime di violenza.\n* 🚑 **Soccorso Sanitario H24**\n",
+        "indirizzo": "Indirizzo non disponibile",
+        "telefono": "112 / 118",
+        "email": "",
+        "sito_web": "",
+        "orari": "H24 (Pronto Soccorso)",
+        "codice_rosa": "Disponibile",
+        "bollino_rosa": "no",
+        "gratuito": "Sì",
+        "colore_marker": "#FF0000",
+        "icona": "medical"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.0963815,
+          45.5223366
+        ]
+      },
+      "properties": {
+        "categoria": "SANITA",
+        "tipo": "Pronto Soccorso",
+        "name": "Ospedale Galeazzi Sant'Ambrogio",
+        "description": "### Ospedale Galeazzi Sant'Ambrogio\n**Stato:** 🟢 Presidio Sanitario Istituzionale Verificato\n\n**Tipo:** Pronto Soccorso d'Emergenza\n**📍 Indirizzo:** Via Cristina Belgioioso 173, 20157, Milano\n**📞 Telefono (Clicca per chiamare):** [+39 02 8350 0010](tel:+390283500010)\n**🌐 Sito Web:** [Visita il sito](https://www.grupposandonato.it/strutture/ospedale-galeazzi-sant-ambrogio)\n**⏰ Orari:** H24 (Pronto Soccorso)\n\n---\n**📚 Servizi di Supporto ed Emergenza:**\n* 💗 **Percorso Codice Rosa attivo:** Accoglienza, supporto psicologico e protezione immediata con personale formato per reati di violenza di genere.\n* 💰 **Ticket Esente:** Prestazioni gratuite per vittime di violenza.\n* 🚑 **Soccorso Sanitario H24**\n",
+        "indirizzo": "Via Cristina Belgioioso 173, 20157, Milano",
+        "telefono": "+39 02 8350 0010",
+        "email": "",
+        "sito_web": "https://www.grupposandonato.it/strutture/ospedale-galeazzi-sant-ambrogio",
+        "orari": "H24 (Pronto Soccorso)",
+        "codice_rosa": "Disponibile",
+        "bollino_rosa": "no",
+        "gratuito": "Sì",
+        "colore_marker": "#FF0000",
+        "icona": "medical"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.3595803,
+          46.4615201
+        ]
+      },
+      "properties": {
+        "categoria": "SANITA",
+        "tipo": "Pronto Soccorso",
+        "name": "Struttura Sanitaria di Bormio",
+        "description": "### Struttura Sanitaria di Bormio\n**Stato:** 🟢 Presidio Sanitario Istituzionale Verificato\n\n**Tipo:** Pronto Soccorso d'Emergenza\n**📍 Indirizzo:** Via Agoi 8, 23032, Bormio\n**📞 Telefono (Clicca per chiamare):** [112](tel:112) / [118](tel:118)\n**⏰ Orari:** H24 (Pronto Soccorso)\n\n---\n**📚 Servizi di Supporto ed Emergenza:**\n* 💗 **Percorso Codice Rosa attivo:** Accoglienza, supporto psicologico e protezione immediata con personale formato per reati di violenza di genere.\n* 💰 **Ticket Esente:** Prestazioni gratuite per vittime di violenza.\n* 🚑 **Soccorso Sanitario H24**\n",
+        "indirizzo": "Via Agoi 8, 23032, Bormio",
+        "telefono": "112 / 118",
+        "email": "",
+        "sito_web": "",
+        "orari": "H24 (Pronto Soccorso)",
+        "codice_rosa": "Disponibile",
+        "bollino_rosa": "no",
+        "gratuito": "Sì",
+        "colore_marker": "#FF0000",
+        "icona": "medical"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.8591064,
+          45.9105553
+        ]
+      },
+      "properties": {
+        "categoria": "SANITA",
+        "tipo": "Pronto Soccorso",
+        "name": "Ospedale di Cuasso al Monte",
+        "description": "### Ospedale di Cuasso al Monte\n**Stato:** 🟢 Presidio Sanitario Istituzionale Verificato\n\n**Tipo:** Pronto Soccorso d'Emergenza\n**📍 Indirizzo:** Indirizzo non disponibile\n**📞 Telefono (Clicca per chiamare):** [112](tel:112) / [118](tel:118)\n**⏰ Orari:** H24 (Pronto Soccorso)\n\n---\n**📚 Servizi di Supporto ed Emergenza:**\n* 💗 **Percorso Codice Rosa attivo:** Accoglienza, supporto psicologico e protezione immediata con personale formato per reati di violenza di genere.\n* 💰 **Ticket Esente:** Prestazioni gratuite per vittime di violenza.\n* 🚑 **Soccorso Sanitario H24**\n",
+        "indirizzo": "Indirizzo non disponibile",
+        "telefono": "112 / 118",
+        "email": "",
+        "sito_web": "",
+        "orari": "H24 (Pronto Soccorso)",
+        "codice_rosa": "Disponibile",
+        "bollino_rosa": "no",
+        "gratuito": "Sì",
+        "colore_marker": "#FF0000",
+        "icona": "medical"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1598838,
+          45.4343037
+        ]
+      },
+      "properties": {
+        "categoria": "SANITA",
+        "tipo": "Pronto Soccorso",
+        "name": "Ospedale San Paolo",
+        "description": "### Ospedale San Paolo\n**Stato:** 🟢 Presidio Sanitario Istituzionale Verificato\n\n**Tipo:** Pronto Soccorso d'Emergenza\n**📍 Indirizzo:** Via Antonio di Rudinì 8\n**📞 Telefono (Clicca per chiamare):** [+39 02 81 841](tel:+390281841)\n**🌐 Sito Web:** [Visita il sito](https://www.asst-santipaolocarlo.it)\n**⏰ Orari:** H24 (Pronto Soccorso)\n\n---\n**📚 Servizi di Supporto ed Emergenza:**\n* 💗 **Percorso Codice Rosa attivo:** Accoglienza, supporto psicologico e protezione immediata con personale formato per reati di violenza di genere.\n* 💰 **Ticket Esente:** Prestazioni gratuite per vittime di violenza.\n* 🚑 **Soccorso Sanitario H24**\n",
+        "indirizzo": "Via Antonio di Rudinì 8",
+        "telefono": "+39 02 81 841",
+        "email": "",
+        "sito_web": "https://www.asst-santipaolocarlo.it",
+        "orari": "H24 (Pronto Soccorso)",
+        "codice_rosa": "Disponibile",
+        "bollino_rosa": "no",
+        "gratuito": "Sì",
+        "colore_marker": "#FF0000",
+        "icona": "medical"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2617366,
+          45.4438508
+        ]
+      },
+      "properties": {
+        "categoria": "SANITA",
+        "tipo": "Pronto Soccorso",
+        "name": "Centro Cardiologico Monzino",
+        "description": "### Centro Cardiologico Monzino\n**Stato:** 🟢 Presidio Sanitario Istituzionale Verificato\n\n**Tipo:** Pronto Soccorso d'Emergenza\n**📍 Indirizzo:** Indirizzo non disponibile\n**📞 Telefono (Clicca per chiamare):** [+39 02 580021](tel:+3902580021)\n**🌐 Sito Web:** [Visita il sito](http://www.cardiologicomonzino.it/)\n**⏰ Orari:** H24 (Pronto Soccorso)\n\n---\n**📚 Servizi di Supporto ed Emergenza:**\n* 💗 **Percorso Codice Rosa attivo:** Accoglienza, supporto psicologico e protezione immediata con personale formato per reati di violenza di genere.\n* 💰 **Ticket Esente:** Prestazioni gratuite per vittime di violenza.\n* 🚑 **Soccorso Sanitario H24**\n",
+        "indirizzo": "Indirizzo non disponibile",
+        "telefono": "+39 02 580021",
+        "email": "",
+        "sito_web": "http://www.cardiologicomonzino.it/",
+        "orari": "H24 (Pronto Soccorso)",
+        "codice_rosa": "Disponibile",
+        "bollino_rosa": "no",
+        "gratuito": "Sì",
+        "colore_marker": "#FF0000",
+        "icona": "medical"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2250623,
+          45.4852492
+        ]
+      },
+      "properties": {
+        "categoria": "SANITA",
+        "tipo": "Pronto Soccorso",
+        "name": "Istituto Clinico Città Studi",
+        "description": "### Istituto Clinico Città Studi\n**Stato:** 🟢 Presidio Sanitario Istituzionale Verificato\n\n**Tipo:** Pronto Soccorso d'Emergenza\n**📍 Indirizzo:** Indirizzo non disponibile\n**📞 Telefono (Clicca per chiamare):** [112](tel:112) / [118](tel:118)\n**⏰ Orari:** H24 (Pronto Soccorso)\n\n---\n**📚 Servizi di Supporto ed Emergenza:**\n* 💗 **Percorso Codice Rosa attivo:** Accoglienza, supporto psicologico e protezione immediata con personale formato per reati di violenza di genere.\n* 💰 **Ticket Esente:** Prestazioni gratuite per vittime di violenza.\n* 🚑 **Soccorso Sanitario H24**\n",
+        "indirizzo": "Indirizzo non disponibile",
+        "telefono": "112 / 118",
+        "email": "",
+        "sito_web": "",
+        "orari": "H24 (Pronto Soccorso)",
+        "codice_rosa": "Disponibile",
+        "bollino_rosa": "no",
+        "gratuito": "Sì",
+        "colore_marker": "#FF0000",
+        "icona": "medical"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1451981,
+          45.4721197
+        ]
+      },
+      "properties": {
+        "categoria": "SANITA",
+        "tipo": "Pronto Soccorso",
+        "name": "Istituto Scientifico Ospedale San Luca",
+        "description": "### Istituto Scientifico Ospedale San Luca\n**Stato:** 🟢 Presidio Sanitario Istituzionale Verificato\n\n**Tipo:** Pronto Soccorso d'Emergenza\n**📍 Indirizzo:** Piazzale Brescia 20, 20149, Milano\n**📞 Telefono (Clicca per chiamare):** [112](tel:112) / [118](tel:118)\n**⏰ Orari:** H24 (Pronto Soccorso)\n\n---\n**📚 Servizi di Supporto ed Emergenza:**\n* 💗 **Percorso Codice Rosa attivo:** Accoglienza, supporto psicologico e protezione immediata con personale formato per reati di violenza di genere.\n* 💰 **Ticket Esente:** Prestazioni gratuite per vittime di violenza.\n* 🚑 **Soccorso Sanitario H24**\n",
+        "indirizzo": "Piazzale Brescia 20, 20149, Milano",
+        "telefono": "112 / 118",
+        "email": "",
+        "sito_web": "",
+        "orari": "H24 (Pronto Soccorso)",
+        "codice_rosa": "Disponibile",
+        "bollino_rosa": "no",
+        "gratuito": "Sì",
+        "colore_marker": "#FF0000",
+        "icona": "medical"
+      }
+    }
+  ]
+}
