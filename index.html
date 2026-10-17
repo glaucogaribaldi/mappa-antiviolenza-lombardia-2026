@@ -927,21 +927,155 @@
             }
         }
 
-        // GEOLOCALIZZAZIONE ED INQUADRATURA TRAMITE BARRA DI RICERCA TESTUALE
+        // DIZIONARIO NOMI PROVINCE -> SIGLA ISTAT
+        const provinceNamesMap = {
+            "BERGAMO": "BG", "BRESCIA": "BS", "COMO": "CO", "CREMONA": "CR",
+            "LECCO": "LC", "LODI": "LO", "MONZA": "MB", "MONZA E BRIANZA": "MB",
+            "MONZA BRIANZA": "MB", "MILANO": "MI", "MANTOVA": "MN",
+            "PAVIA": "PV", "SONDRIO": "SO", "VARESE": "VA"
+        };
+
+        // CENTRATURA COMUNE CERTIFICATA (CALCOLA IL BARICENTRO REALE DEI PRESIDI DEL COMUNE!)
+        function selectComuneSuggestion(comuneUpper, provCode) {
+            const suggestionsDiv = document.getElementById("search-suggestions");
+            if (suggestionsDiv) {
+                suggestionsDiv.classList.add("hidden");
+                suggestionsDiv.innerHTML = "";
+            }
+            const input = document.getElementById("free-search");
+            const listInput = document.getElementById("list-search-input");
+            const clearBtn = document.getElementById("clear-search-btn");
+            if (input) input.value = "";
+            if (listInput) listInput.value = "";
+            if (clearBtn) {
+                clearBtn.classList.add("hidden");
+                clearBtn.classList.remove("flex");
+            }
+
+            // Se è un capoluogo di provincia, usa le coordinate del centro cittadino (non della provincia!)
+            let targetLat = null, targetLng = null, targetZoom = 13.5;
+            const cityMarkers = markers.filter(m => m.comune === comuneUpper);
+
+            if (provinceNamesMap[comuneUpper] && provinceCentroids[provinceNamesMap[comuneUpper]]) {
+                const c = provinceCentroids[provinceNamesMap[comuneUpper]];
+                targetLat = c.lat;
+                targetLng = c.lng;
+                targetZoom = 13.2;
+            } else if (cityMarkers.length > 0) {
+                let sumLat = 0, sumLng = 0;
+                cityMarkers.forEach(m => {
+                    sumLat += m.props.lat;
+                    sumLng += m.props.lng;
+                });
+                targetLat = sumLat / cityMarkers.length;
+                targetLng = sumLng / cityMarkers.length;
+                targetZoom = 13.8;
+            }
+
+            // Sincronizza anche i menu a tendina Provincia e Comune così l'utente vede tutti i presidi della zona!
+            const selProv = document.getElementById("select-provincia");
+            const selCom = document.getElementById("select-comune");
+            if (selProv) selProv.value = "";
+            if (selCom) {
+                selCom.innerHTML = '<option value="">Comune (Tutti)</option>';
+                selCom.value = "";
+                selCom.disabled = true;
+            }
+
+            if (targetLat && targetLng && map) {
+                const pos = { lat: targetLat, lng: targetLng };
+                referencePoint = { lat: targetLat, lng: targetLng, isUserLocated: true };
+                switchTab('map');
+                map.panTo(pos);
+                map.setZoom(targetZoom);
+
+                if (window.userMarker) {
+                    window.userMarker.setPosition(pos);
+                } else {
+                    window.userMarker = new google.maps.Marker({
+                        position: pos,
+                        map: map,
+                        title: `Comune di ${comuneUpper}`,
+                        icon: {
+                            path: google.maps.SymbolPath.CIRCLE,
+                            fillColor: "#4CAF50",
+                            fillOpacity: 1.0,
+                            scale: 9,
+                            strokeColor: "#FFFFFF",
+                            strokeWeight: 2.5
+                        }
+                    });
+                }
+            }
+            filterAll();
+        }
+
+        // GEOLOCALIZZAZIONE ED INQUADRATURA TRAMITE BARRA DI RICERCA TESTUALE (MOTORE GERARCHICO ISTAT + GOOGLE GEOCODER)
         function geocodeAddressSearch() {
             const searchText = document.getElementById("free-search").value.trim();
             if (!searchText) {
-                alert("Digita una città o un indirizzo prima di cliccare su Cerca.");
+                alert("Digita un comune, un indirizzo o il nome di un centro prima di cliccare su Cerca.");
                 return;
             }
-            
-            const searchBtn = document.querySelector(".search-bar-floating button") || document.querySelector("button[onclick='geocodeAddressSearch()']");
-            const originalText = searchBtn.textContent;
-            searchBtn.textContent = "⏳";
-            searchBtn.disabled = true;
-            
-            const url = `https://nominatim.openstreetmap.org/search?format=json&limit=1&q=${encodeURIComponent(searchText + ", Lombardia, Italia")}`;
-            
+            const qUp = searchText.toUpperCase().replace(/\s+/g, " ");
+
+            // LIVELLO 1: È il nome esatto di un Comune presente nel database o di un Capoluogo Lombardo?
+            if (provinceNamesMap[qUp]) {
+                selectComuneSuggestion(qUp, provinceNamesMap[qUp]);
+                return;
+            }
+            const exactComuneMarker = markers.find(m => m.comune === qUp);
+            if (exactComuneMarker) {
+                selectComuneSuggestion(qUp, exactComuneMarker.provincia);
+                return;
+            }
+
+            // LIVELLO 2: È il nome di un Centro CAV o Ospedale?
+            const exactFacility = markers.find(m => (m.props.name || "").toUpperCase() === qUp)
+                               || markers.find(m => m.category === 'CAV' && (m.props.name || "").toUpperCase().includes(qUp));
+            if (exactFacility && qUp.length >= 4 && !qUp.startsWith("VIA ") && !qUp.startsWith("PIAZZA ") && !qUp.startsWith("CORSO ") && !qUp.startsWith("VIALE ")) {
+                selectSuggestion(exactFacility.props.name);
+                return;
+            }
+
+            // LIVELLO 3: Geocodifica Indirizzo / Via / Località (Google Maps Geocoder nativo -> fallback Nominatim City-First)
+            const searchBtn = document.querySelector("button[onclick='geocodeAddressSearch()']");
+            const originalText = searchBtn ? searchBtn.textContent : "Cerca";
+            if (searchBtn) {
+                searchBtn.textContent = "⏳";
+                searchBtn.disabled = true;
+            }
+
+            function applyGeocodedPoint(lat, lon) {
+                const searchLatLng = { lat: lat, lng: lon };
+                referencePoint = { lat: lat, lng: lon, isUserLocated: true };
+                switchTab('map');
+                map.panTo(searchLatLng);
+                map.setZoom(14.0);
+
+                clearSearchInput();
+
+                if (window.userMarker) {
+                    window.userMarker.setPosition(searchLatLng);
+                } else {
+                    window.userMarker = new google.maps.Marker({
+                        position: searchLatLng,
+                        map: map,
+                        title: "Posizione Cercata",
+                        icon: {
+                            path: google.maps.SymbolPath.CIRCLE,
+                            fillColor: "#4CAF50",
+                            fillOpacity: 1.0,
+                            scale: 9,
+                            strokeColor: "#FFFFFF",
+                            strokeWeight: 2.5
+                        }
+                    });
+                }
+                filterAll();
+            }
+
+            const url = `https://nominatim.openstreetmap.org/search?format=json&limit=6&q=${encodeURIComponent(searchText + ", Lombardia, Italia")}`;
             fetch(url)
             .then(response => {
                 if (!response.ok) throw new Error("Errore di rete");
@@ -949,44 +1083,24 @@
             })
             .then(data => {
                 if (data && data.length > 0) {
-                    const result = data[0];
-                    const lat = parseFloat(result.lat);
-                    const lon = parseFloat(result.lon);
-                    const searchLatLng = { lat: lat, lng: lon };
-                    referencePoint = { lat: lat, lng: lon, isUserLocated: true };
-                    
-                    map.panTo(searchLatLng);
-                    map.setZoom(12.5);
-                    
-                    // Clear search input and suggestions so all surrounding markers are fully restored!
-                    document.getElementById("free-search").value = "";
-                    const suggestionsDiv = document.getElementById("search-suggestions");
-                    if (suggestionsDiv) {
-                        suggestionsDiv.classList.add("hidden");
-                        suggestionsDiv.innerHTML = "";
-                    }
-                    
-                    if (window.userMarker) {
-                        window.userMarker.setPosition(searchLatLng);
-                    } else {
-                        window.userMarker = new google.maps.Marker({
-                            position: searchLatLng,
-                            map: map,
-                            title: "Posizione Cercata",
-                            icon: {
-                                path: google.maps.SymbolPath.CIRCLE,
-                                fillColor: "#4CAF50",
-                                fillOpacity: 1.0,
-                                scale: 9,
-                                strokeColor: "#FFFFFF",
-                                strokeWeight: 2.5
-                            }
-                        });
-                    }
-                    
-                    filterAll();
+                    // BUGFIX VARESE->COMERIO: Scarta sempre i centroidi provinciali ('county'/'state') se esiste il Comune/Città/Via reale!
+                    const best = data.find(r => r.addresstype !== "county" && r.addresstype !== "state" && r.addresstype !== "region") || data[0];
+                    applyGeocodedPoint(parseFloat(best.lat), parseFloat(best.lon));
+                } else if (window.google && google.maps && google.maps.Geocoder) {
+                    const geocoder = new google.maps.Geocoder();
+                    geocoder.geocode({
+                        address: searchText + ", Lombardia, Italia",
+                        bounds: new google.maps.LatLngBounds({ lat: 44.6, lng: 8.4 }, { lat: 46.7, lng: 11.5 })
+                    }, (results, status) => {
+                        if (status === "OK" && results && results[0]) {
+                            const loc = results[0].geometry.location;
+                            applyGeocodedPoint(loc.lat(), loc.lng());
+                        } else {
+                            alert("Impossibile trovare la località cercata. Inserisci un comune, via o centro lombardo valido.");
+                        }
+                    });
                 } else {
-                    alert("Impossibile trovare la località cercata. Inserisci un comune o indirizzo lombardo valido.");
+                    alert("Impossibile trovare la località cercata. Inserisci un comune, via o centro lombardo valido.");
                 }
             })
             .catch(err => {
@@ -994,8 +1108,10 @@
                 alert("Si è verificato un errore durante la ricerca geografica. Riprova tra pochi istanti.");
             })
             .finally(() => {
-                searchBtn.textContent = originalText;
-                searchBtn.disabled = false;
+                if (searchBtn) {
+                    searchBtn.textContent = originalText;
+                    searchBtn.disabled = false;
+                }
             });
         }
 
@@ -1097,8 +1213,29 @@
                 return;
             }
 
-            // Cerca coincidenze tra i marker caricati dal Google Sheet
-            const matches = [];
+            // 1. Cerca Comuni ISTAT corrispondenti (es. "Varese", "Busto Arsizio", "Gallarate")
+            const comuniMap = new Map();
+            for (let i = 0; i < markers.length; i++) {
+                const m = markers[i];
+                const com = (m.comune || "").toUpperCase();
+                if (com && com.includes(query)) {
+                    if (!comuniMap.has(com)) {
+                        comuniMap.set(com, { comune: com, provincia: m.provincia, count: 0, cavCount: 0 });
+                    }
+                    const entry = comuniMap.get(com);
+                    entry.count++;
+                    if (m.category === 'CAV') entry.cavCount++;
+                }
+            }
+            const comuniMatches = Array.from(comuniMap.values()).sort((a, b) => {
+                const aExact = a.comune === query ? 0 : (a.comune.startsWith(query) ? 1 : 2);
+                const bExact = b.comune === query ? 0 : (b.comune.startsWith(query) ? 1 : 2);
+                if (aExact !== bExact) return aExact - bExact;
+                return b.count - a.count;
+            }).slice(0, 2);
+
+            // 2. Cerca Presidi con Ranking Intelligente (Priorità a Centri CAV e Ospedali + Match sul Nome!)
+            const scoredMatches = [];
             for (let i = 0; i < markers.length; i++) {
                 const marker = markers[i];
                 const name = (marker.props.name || "").toUpperCase();
@@ -1106,18 +1243,46 @@
                 const com = (marker.comune || "").toUpperCase();
 
                 if (name.includes(query) || addr.includes(query) || com.includes(query)) {
-                    matches.push(marker);
-                    if (matches.length >= 5) break; // Mostra massimo 5 risultati
+                    let score = 0;
+                    if (name.startsWith(query)) score += 100;
+                    else if (name.includes(query)) score += 60;
+                    if (com === query) score += 50;
+                    else if (com.startsWith(query)) score += 30;
+                    if (addr.includes(query)) score += 20;
+                    if (marker.category === "CAV") score += 40;
+                    else if (marker.category === "SANITA") score += 25;
+                    scoredMatches.push({ marker, score });
                 }
             }
+            scoredMatches.sort((a, b) => b.score - a.score);
+            const matches = scoredMatches.slice(0, 5).map(x => x.marker);
 
-            if (matches.length === 0) {
+            if (comuniMatches.length === 0 && matches.length === 0) {
                 suggestionsDiv.classList.add("hidden");
                 suggestionsDiv.innerHTML = "";
                 return;
             }
 
             let html = "";
+
+            // Renderizza prima i suggerimenti geografici di Comune ("Vai al Comune di Varese (VA)")
+            comuniMatches.forEach(c => {
+                const cityTitle = c.comune.charAt(0) + c.comune.slice(1).toLowerCase();
+                html += `
+                    <div class="flex items-center justify-between gap-2.5 p-2.5 bg-pink-50/60 hover:bg-pink-100/70 rounded-xl cursor-pointer transition-colors border border-pink-100/80" onclick="selectComuneSuggestion('${c.comune.replace(/'/g, "\\'")}', '${c.provincia}')">
+                        <div class="flex items-center gap-2.5 min-w-0">
+                            <span class="material-symbols-outlined text-primary text-[20px] shrink-0" style="font-variation-settings: 'FILL' 1;">location_city</span>
+                            <div class="flex flex-col min-w-0">
+                                <span class="text-xs font-extrabold text-gray-900 truncate">Comune di ${escapeHTML(cityTitle)} (${escapeHTML(c.provincia)})</span>
+                                <span class="text-[0.65rem] text-primary font-bold truncate">Centra la mappa su ${escapeHTML(cityTitle)} • ${c.count} presidi attivi</span>
+                            </div>
+                        </div>
+                        <span class="material-symbols-outlined text-primary text-[16px] shrink-0">arrow_forward</span>
+                    </div>
+                `;
+            });
+
+            // Renderizza i singoli Presidi ordinati per rilevanza
             matches.forEach(m => {
                 let icon = "support";
                 let colorClass = "text-primary";
@@ -1148,12 +1313,20 @@
             suggestionsDiv.classList.remove("hidden");
         }
 
-        // SELEZIONE SUGGERIMENTO (PAN, ZOOM ED APERTURA DETTAGLIO)
+        // SELEZIONE SUGGERIMENTO SINGOLO PRESIDIO (RIPRISTINA TUTTI I MARKER CIRCOSTANTI E APRE IL DETTAGLIO!)
         function selectSuggestion(name) {
             const input = document.getElementById("free-search");
+            const listInput = document.getElementById("list-search-input");
+            const clearBtn = document.getElementById("clear-search-btn");
             const suggestionsDiv = document.getElementById("search-suggestions");
             
-            if (input) input.value = name;
+            // Svuota il filtro testuale così sulla mappa restano visibili anche i presidi vicini!
+            if (input) input.value = "";
+            if (listInput) listInput.value = "";
+            if (clearBtn) {
+                clearBtn.classList.add("hidden");
+                clearBtn.classList.remove("flex");
+            }
             if (suggestionsDiv) {
                 suggestionsDiv.classList.add("hidden");
                 suggestionsDiv.innerHTML = "";
@@ -1161,13 +1334,15 @@
 
             const marker = markers.find(m => m.props.name === name);
             if (marker && map) {
+                referencePoint = { lat: marker.props.lat, lng: marker.props.lng, isUserLocated: true };
+                filterAll();
                 switchTab('map');
                 map.panTo(marker.getPosition());
-                map.setZoom(14.5);
+                map.setZoom(15.5);
                 displayFeatureDetails(marker.props, marker.category);
+            } else {
+                filterAll();
             }
-
-            filterAll();
         }
 
         // FUNZIONE DI PARSING GEOGRAFICO CERTIFICATA (PRIORITÀ ALLE COLONNE DEDICATE 'COMUNE' E 'PROVINCIA')
